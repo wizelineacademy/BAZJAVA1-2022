@@ -21,9 +21,6 @@ El objetivo de esta etapa es brindarte la oportunidad de actualizar tus conocimi
 **Proyecto Final (Capstone Project)**
 - Este será un reto creado para poner en práctica los conocimientos adquiridos durante el entrenamiento. 
 
-<<<<<<< Updated upstream
-# III. Contacto Wizeline Academy
-=======
 # III. Curricula del entrenamiento
 Los temas estan divididos en 6 semanas, 3 sesiones por semana. 
 
@@ -82,7 +79,6 @@ Si deseas una tener una mentoria personalizada en línea con alguno de los mento
 - Mentor 5
 
 # VI. Contacto Wizeline Academy
->>>>>>> Stashed changes
 Si tienes alguna duda sobre el programa, logística, accesos, etc. por favor contacta al equipo de Wizeline Academy
 
 Email: [baz-dsa@wizeline.com](baz-dsa@wizeline.com)
