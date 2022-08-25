@@ -21,7 +21,57 @@ El objetivo de esta etapa es brindarte la oportunidad de actualizar tus conocimi
 **Proyecto Final (Capstone Project)**
 - Este será un reto creado para poner en práctica los conocimientos adquiridos durante el entrenamiento. 
 
-# III. Contacto Wizeline Academy
+# III. Curricula del entrenamiento
+Los temas estan divididos en 6 semanas, 3 sesiones por semana. 
+
+## :bookmark_tabs: Sesiones
+
+### Semana 1 - Fundamentos
+   1. [Git](Git) 
+   2. [Microservicios](Microservicios)
+   3. [Kafka](Kafka)
+
+### Semana 2 - Fundamentos
+   1. [Serverless](Serverless)
+   2. [MongoDB](MongoDB)
+   3. [Clean Code](CleanCode)
+
+### Semana 3 - Java
+   1. [Programacion Orientada a Objetos](OOP)
+   2. [Programacion Funcional](Functional)
+   3. [Colecciones](Collections)
+   4. [Optional API](Optional)
+   5. [Genericos](Generics)
+   6. [Cifrado](Cypher)
+   7. [Certificados](Certs)
+
+### Semana 4 - Spring Boot/JUnit
+   1. [Spring Security](Security)
+   2. [Spring Configuration](Config)
+   3. [Spring MVC](MVC)
+   4. [Spring Data JPA](Data)
+   5. [Spring Core](Core)
+   6. [Spring Batch](Batch)
+   6. [Pruebas de Integracion](Integration)
+   6. [Mockito](Mockito)
+
+# IV. Proyecto Final (Capstone Project)
+**Objetivo**
+Para aprobar el curso tendrás que desarrollar un proyecto final en el cual reforzaras y aplicaras los conocimientos que vas adquiriendo 
+
+Aqui encontrarás las instrucciones para completar tu Projecto final.
+
+# V. Agenda tu mentoria
+Si deseas una tener una mentoria personalizada en línea con alguno de los mentores, sigue estas instrucciones:
+- Selecciona la liga de abajo de cualquiera de los mentores
+
+- Mentor 1
+- Mentor 2
+- Mentor 3
+- Mentor 4
+- Mentor 5
+
+# VI. Contacto Wizeline Academy
 Si tienes alguna duda sobre el programa, logística, accesos, etc. por favor contacta al equipo de Wizeline Academy
 
 Email: [baz-dsa@wizeline.com](baz-dsa@wizeline.com)
