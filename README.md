@@ -26,20 +26,34 @@ Los temas estan divididos en 6 semanas, 3 sesiones por semana.
 
 ## :bookmark_tabs: Sesiones
 
-### Semana 1 - Fundamentals
-   1. [Historia de la web]([pre-curso/modulo_1/sesion_1.1](https://github.com/wizelineacademy/web-development-bootcamp-course/tree/main/pre-curso/modulo_1/sesion_1.1)) poner un branch de este main con el material del tema de cada dia.
-   2. [Aplicaciones web](pre-curso/modulo_1/sesion_1.2)
-   3. [Frontend](pre-curso/modulo_1/sesion_1.3)
+### Semana 1 - Fundamentos
+   1. [Git](Git) 
+   2. [Microservicios](Microservicios)
+   3. [Kafka](Kafka)
 
-### Semana 2 - 
+### Semana 2 - Fundamentos
+   1. [Serverless](Serverless)
+   2. [MongoDB](MongoDB)
+   3. [Clean Code](CleanCode)
 
-### Semana 3 - 
+### Semana 3 - Java
+   1. [Programacion Orientada a Objetos](OOP)
+   2. [Programacion Funcional](Functional)
+   3. [Colecciones](Collections)
+   4. [Optional API](Optional)
+   5. [Genericos](Generics)
+   6. [Cifrado](Cypher)
+   7. [Certificados](Certs)
 
-### Semana 4 - 
-
-### Semana 5 - 
-
-### Semana 6 -
+### Semana 4 - Spring Boot/JUnit
+   1. [Spring Security](Security)
+   2. [Spring Configuration](Config)
+   3. [Spring MVC](MVC)
+   4. [Spring Data JPA](Data)
+   5. [Spring Core](Core)
+   6. [Spring Batch](Batch)
+   6. [Pruebas de Integracion](Integration)
+   6. [Mockito](Mockito)
 
 # IV. Proyecto Final (Capstone Project)
 **Objetivo**
