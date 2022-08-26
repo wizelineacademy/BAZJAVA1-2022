@@ -2,7 +2,7 @@
 
 # :computer:  Actividades
 
-## Inicialización de segumiento a git y git status
+## Docker
 
 ### Antes de empezar :exclamation::exclamation:
 *Nota: Antes de comenzar deberemos tener instalados docker, docker compose, kubectl y colima, o en su defecto el ambiente docker de nuestra preserencia 
