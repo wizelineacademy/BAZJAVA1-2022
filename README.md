@@ -74,7 +74,7 @@ Si deseas una tener una mentoria personalizada en línea con alguno de los mento
 
 - [Mentor - GIT, MS, RestAPI, Serverless, MongoDB](https://calendly.com/paco-mojica/mentoria-baz)
 - [Mentor - Java, Spring Boot](https://calendly.com/gerardoruiz-wizeline/mentoria-baz)
-- [Mentor - Java, Kafka, MongoDB, Spring Boot, JUNIT](https://calendly.com/jose-vazquez-wizeline)
+- [Mentor - Java, Kafka, MongoDB, Spring Boot, JUNIT](https://calendly.com/jose-vazquez-wizeline/mentoria-baz)
 - [Mentor - Java, GIT, MS, RestAPI, Serverless, MongoDB, Spring Boot, JUNIT](https://calendly.com/dianafernandez-wizeline/mentoria-baz)
 
 # VI. Contacto Wizeline Academy 📧
