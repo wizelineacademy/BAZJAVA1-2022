@@ -24,7 +24,7 @@ El objetivo de esta etapa es brindarte la oportunidad de actualizar tus conocimi
 # III. Curricula del entrenamiento
 Los temas estan divididos en 6 semanas, 3 sesiones por semana. 
 
-## Sesiones
+## :bookmark_tabs: Sesiones
 
 ### Semana 1 - Fundamentos
    1. [Git](1/GIT/README.md) 
@@ -63,7 +63,7 @@ Los temas estan divididos en 6 semanas, 3 sesiones por semana.
    3. [Registros](6/Registros/README.md)
 
 # IV. Proyecto Final (Capstone Project)
-**Objetivo**
+**Objetivo** ✴️
 Para aprobar el curso tendrás que desarrollar un proyecto final en el cual reforzaras y aplicaras los conocimientos que vas adquiriendo 
 
 Aqui encontrarás las instrucciones para completar tu Projecto final.
