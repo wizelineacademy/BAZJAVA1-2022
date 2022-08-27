@@ -63,22 +63,21 @@ Los temas estan divididos en 6 semanas, 3 sesiones por semana.
    3. [Registros](6/Registros/README.md)
 
 # IV. Proyecto Final (Capstone Project)
-**Objetivo** ✴️
+✴️ **Objetivo**
 Para aprobar el curso tendrás que desarrollar un proyecto final en el cual reforzaras y aplicaras los conocimientos que vas adquiriendo 
 
 Aqui encontrarás las instrucciones para completar tu Projecto final.
 
-# V. Agenda tu mentoria
+# V. Agenda tu mentoria 📆
 Si deseas una tener una mentoria personalizada en línea con alguno de los mentores, sigue estas instrucciones:
 - Selecciona la liga de abajo de cualquiera de los mentores
 
-- [Mentor 1](https://calendly.com/paco-mojica/mentoria-baz)
-- [Mentor 2](https://calendly.com/gerardoruiz-wizeline/mentoria-baz)
-- [Mentor 3](https://calendly.com/jose-vazquez-wizeline)
-- [Mentor 4](https://calendly.com/dianafernandez-wizeline/mentoria-baz)
-- Mentor 5
+- [Mentor - GIT, MS, RestAPI, Serverless, MongoDB](https://calendly.com/paco-mojica/mentoria-baz)
+- [Mentor - Java, Spring Boot](https://calendly.com/gerardoruiz-wizeline/mentoria-baz)
+- [Mentor - Java, Kafka, MongoDB, Spring Boot, JUNIT](https://calendly.com/jose-vazquez-wizeline)
+- [Mentor - Java, GIT, MS, RestAPI, Serverless, MongoDB, Spring Boot, JUNIT](https://calendly.com/dianafernandez-wizeline/mentoria-baz)
 
-# VI. Contacto Wizeline Academy
+# VI. Contacto Wizeline Academy 📧
 Si tienes alguna duda sobre el programa, logística, accesos, etc. por favor contacta al equipo de Wizeline Academy
 
 Email: [baz-dsa@wizeline.com](baz-dsa@wizeline.com)
