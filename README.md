@@ -74,8 +74,8 @@ Si deseas una tener una mentoria personalizada en línea con alguno de los mento
 
 - [Mentor 1](https://calendly.com/paco-mojica/mentoria-baz)
 - [Mentor 2](https://calendly.com/gerardoruiz-wizeline/mentoria-baz)
-- Mentor 3
-- Mentor 4
+- [Mentor 3](https://calendly.com/jose-vazquez-wizeline)
+- [Mentor 4](https://calendly.com/dianafernandez-wizeline/mentoria-baz)
 - Mentor 5
 
 # VI. Contacto Wizeline Academy
