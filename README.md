@@ -69,17 +69,16 @@ Para aprobar el curso tendrás que desarrollar un proyecto final en el cual refo
 Aqui encontrarás las instrucciones para completar tu Projecto final.
 
 # V. Agenda tu mentoria 📆
-Si deseas una tener una mentoria personalizada en línea con alguno de los mentores, sigue estas instrucciones:
-Selecciona la liga de abajo de cualquiera de los mentores, te abrira su calendario con la disponibilidad por dia y horarios.
-Elige el que mejor se acomode a tu necesidad.
+Si deseas una tener una mentoria personalizada en línea con alguno de los mentores, selecciona el nombre de quien corresponda al tema que necesitas:
 
-- [Paco Mojica - GIT, MS, RestAPI, Serverless, MongoDB](https://calendly.com/paco-mojica/mentoria-baz)
-- [Neftali Ramos - GIT, MS, RestAPI, Serverless, MongoDB]
-- [Víctor Lozano - Java, GIT, MS, RestAPI, MongoDB, Spring Boot]
-- [David Guerra - Java, Serverless, Kafka]
-- [Gerardo Ruiz - Java, Spring Boot](https://calendly.com/gerardoruiz-wizeline/mentoria-baz)
-- [José Perea - Java, Kafka, MongoDB, Spring Boot, JUNIT](https://calendly.com/jose-vazquez-wizeline/mentoria-baz)
-- [Diana Fernández - Java, GIT, MS, RestAPI, Serverless, MongoDB, Spring Boot, JUNIT](https://calendly.com/dianafernandez-wizeline/mentoria-baz)
+- [Neftali Ramos](https://calendly.com/neftali-ramos/mentoria-baz) (GIT, Microservicios, RestAPIs, Serverless)
+- [Francisco Mojica](https://calendly.com/paco-mojica/mentoria-baz) (GIT, Microservicios, RestAPIs, Serverless)
+- [David Guerra](https://calendly.com/paco-mojica/mentoria-baz) (GIT, Microservicios, RestAPIs, Serverless)
+- [Mario Cruz](https://calendly.com/mario-cruz-wizeline) (Kafka, Codigo Limpio)
+- [Diana Fernandez](https://calendly.com/dianafernandez-wizeline/mentoria-baz) (Codigo Limpio)
+- [Victor Lozano](https://calendly.com/hugo-wizeline/mentoria-baz) (Codigo Limpio)
+- [Gerardo Ruiz](https://calendly.com/gerardoruiz-wizeline/mentoria-baz) (Java, Spring Boot, JUnit)
+- [Jose Perea](https://calendly.com/jose-vazquez-wizeline) (Java, Spring Boot, JUnit)
 
 # VI. Contacto Wizeline Academy 📧
 Si tienes alguna duda sobre el programa, logística, accesos, etc. por favor contacta al equipo de Wizeline Academy
