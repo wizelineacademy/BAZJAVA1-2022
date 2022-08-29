@@ -72,10 +72,10 @@ Aqui encontrarás las instrucciones para completar tu Projecto final.
 Si deseas una tener una mentoria personalizada en línea con alguno de los mentores, sigue estas instrucciones:
 - Selecciona la liga de abajo de cualquiera de los mentores
 
-- [Mentor - GIT, MS, RestAPI, Serverless, MongoDB](https://calendly.com/paco-mojica/mentoria-baz)
-- [Mentor - Java, Spring Boot](https://calendly.com/gerardoruiz-wizeline/mentoria-baz)
-- [Mentor - Java, Kafka, MongoDB, Spring Boot, JUNIT](https://calendly.com/jose-vazquez-wizeline/mentoria-baz)
-- [Mentor - Java, GIT, MS, RestAPI, Serverless, MongoDB, Spring Boot, JUNIT](https://calendly.com/dianafernandez-wizeline/mentoria-baz)
+- [Paco Mojica - GIT, MS, RestAPI, Serverless, MongoDB](https://calendly.com/paco-mojica/mentoria-baz)
+- [Gerardo Ruiz - Java, Spring Boot](https://calendly.com/gerardoruiz-wizeline/mentoria-baz)
+- [José Perea - Java, Kafka, MongoDB, Spring Boot, JUNIT](https://calendly.com/jose-vazquez-wizeline/mentoria-baz)
+- [Diana Fernández - Java, GIT, MS, RestAPI, Serverless, MongoDB, Spring Boot, JUNIT](https://calendly.com/dianafernandez-wizeline/mentoria-baz)
 
 # VI. Contacto Wizeline Academy 📧
 Si tienes alguna duda sobre el programa, logística, accesos, etc. por favor contacta al equipo de Wizeline Academy
