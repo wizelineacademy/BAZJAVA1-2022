@@ -73,6 +73,9 @@ Si deseas una tener una mentoria personalizada en línea con alguno de los mento
 - Selecciona la liga de abajo de cualquiera de los mentores
 
 - [Paco Mojica - GIT, MS, RestAPI, Serverless, MongoDB](https://calendly.com/paco-mojica/mentoria-baz)
+- [Neftali Ramos - GIT, MS, RestAPI, Serverless, MongoDB]
+- [Víctor Lozano - Java, GIT, MS, RestAPI, MongoDB, Spring Boot]
+- [David Guerra - Java, Serverless, Kafka]
 - [Gerardo Ruiz - Java, Spring Boot](https://calendly.com/gerardoruiz-wizeline/mentoria-baz)
 - [José Perea - Java, Kafka, MongoDB, Spring Boot, JUNIT](https://calendly.com/jose-vazquez-wizeline/mentoria-baz)
 - [Diana Fernández - Java, GIT, MS, RestAPI, Serverless, MongoDB, Spring Boot, JUNIT](https://calendly.com/dianafernandez-wizeline/mentoria-baz)
