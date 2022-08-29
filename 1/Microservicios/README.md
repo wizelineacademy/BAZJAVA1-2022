@@ -83,7 +83,7 @@ CMD ["flask", "run"]
 
 ### 5. Construimos la imagen en docker
 ```
-docker build --tag java-docker .
+docker build --tag python-docker .
 ```
 En este punto el motor de docker abra definido el plano para la nueva imagen usando las instrucciones en el archivo DOckerfile
 
@@ -96,7 +96,7 @@ Estas son todas las imagenes que es posible instanciar en tu ambiente local como
 
 ### 7. Creamos una etiqueta de la imagen
 ```
-docker tag java-docker:latest java-docker:v1.0.0
+docker tag python-docker:latest python-docker:v1.0.0
 ```
 Listamos de nuevo las imagenes, noten que ahora hay 2 etiquetas de las imagenes.
 
@@ -105,13 +105,13 @@ Importante: Etiquetar una imagen no crea una nueva imagen, solo nos permite refe
 ### 8. Removemos la etiqueta que acabamos de crear
 
 ```
-docker rmi java-docker:v1.0.0
+docker rmi python-docker:v1.0.0
 ```
 
 ### 8. Instanciamos un contenedor de la imagen que creamos 
 
 ``` 
-docker run java-docker
+docker run python-docker
 ```
 
 ### 9. Intentamos llamar  ala imagen que creamos, ya sea de la terminal o del navegador
@@ -129,7 +129,7 @@ Notemos que la llamada ha sido rechazada, esto se debe a que la aplicacion inten
 docker ps
 ```
 
-### 11. Detenemos al contenedor
+### 11. Detenemos al contenedor, recordemos que el nombre puede variar dependiendo del resultado del comando de listado
 
 ``` 
 docker stop trusting_beaver
@@ -138,7 +138,7 @@ docker stop trusting_beaver
 ### 12. Volvemos a instanciar, ahora exponiendo el puerto en el que está corriendo la aplicación
 
 ``` 
-docker run --publish 5000:8080 java-docker
+docker run --publish 5000:8080 python-docker
 ```
 
 Volvemos a probar la aplicacion
@@ -157,7 +157,7 @@ docker stop trusting_beaver
 ### 12. Ejecutamos el contenedor en modo deatached
 
 ``` 
-docker run -d -p 5000:8080 java-docker
+docker run -d -p 5000:8080 python-docker
 ```
 
 En este modo la sesion de terminal no quedará asociada al proceso de docker ejecutando el contenedor
@@ -288,7 +288,7 @@ return 'Hello from Docker! I have been seen {} times.\n'.format(count)
 
 Actualizamos la aplicacion en el navegador y podremos ver que el mensaje ha cambiado sin necesidad de reconstruir el contenedor
 
-### 21. Comandos adicionales de docker compose que son utiles
+### 21. Comandos adicionales de docker compose que son útiles
 
 Correr en modo deatached
 
@@ -325,6 +325,10 @@ Detener completamente los servicios y remover la data en los volumenes:
 ``` 
 docker compose down --volumes
 ```
+
+### Desafio, recordando la sesion pasada. 
+
+Crea un fork del repositorio que fue proporcionado y en un nuevo branch sube el código de este ejercicio.
 
 # :books: Para aprender mas
 
