@@ -1,4 +1,3 @@
-# :tv:  Video
 
 # :computer:  Actividades
 
