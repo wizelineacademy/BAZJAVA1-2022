@@ -77,6 +77,8 @@ Los temas estan divididos en 6 semanas, 3 sesiones por semana.
 ## Presentaciones sesiones
 
 ### Semana 1 -
+[Lunes 29 Agosto / GIT](https://drive.google.com/file/d/1ynPt0rXOtYchhkA1qhl1bLTyaN1hR-6e/view?usp=sharing)
+[Martes
 
 
 # IV. Proyecto Final (Capstone Project)
