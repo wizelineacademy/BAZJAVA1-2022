@@ -72,7 +72,7 @@ Los temas estan divididos en 6 semanas, 3 sesiones por semana.
 ## 📺 Grabaciones sesiones
 
 ### Semana 1 -
-[Lunes 29 Agosto / GIT] (https://drive.google.com/file/d/1Bn4dx9wmRW4nHjMDri_cLIsjuvqJYIOl/view?usp=sharing)
+[Lunes 29 Agosto / GIT](https://drive.google.com/file/d/1Bn4dx9wmRW4nHjMDri_cLIsjuvqJYIOl/view?usp=sharing)
 
 ## Presentaciones sesiones
 
