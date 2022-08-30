@@ -101,9 +101,14 @@ Selecciona la liga de abajo de cualquiera de los mentores, te abrira su calendar
 - [Gerardo Ruiz](https://calendly.com/gerardoruiz-wizeline/mentoria-baz) (Java, Spring Boot, JUnit)
 - [Jose Perea](https://calendly.com/jose-vazquez-wizeline) (Java, Spring Boot, JUnit)
 
-# VI. Contacto Wizeline Academy 📧
+
+# VI. PROYECTO BAZ SUPERAPP / BANCA DIGITAL (Asignado por Líder de Gremio)
+
+En este [documento](https://docs.google.com/spreadsheets/d/1s5AqSzC3n0YEgiJry5rCa152tEzda5TJtMzM9VEfJ4U/edit?usp=sharing) encontrarás la información sobre el proyecto asignado según tu gremio y líder de gremio.
+
+
+# VII. Contacto Wizeline Academy
 Si tienes alguna duda sobre el programa, logística, accesos, etc. por favor contacta al equipo de Wizeline Academy
 
 Email: [baz-dsa@wizeline.com](baz-dsa@wizeline.com)
-
 
