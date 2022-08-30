@@ -67,6 +67,15 @@ Los temas estan divididos en 6 semanas, 3 sesiones por semana.
    2. [Pruebas Unitarias](6/PruebasUnitarias/README.md)
    3. [Registros](6/Registros/README.md)
 
+## Grabaciones sesiones
+
+### Semana 1 -
+
+## Presentaciones sesiones
+
+### Semana 1 -
+
+
 # IV. Proyecto Final (Capstone Project)
 ✴️ **Objetivo**
 Para aprobar el curso tendrás que desarrollar un proyecto final en el cual reforzaras y aplicaras los conocimientos que vas adquiriendo 
