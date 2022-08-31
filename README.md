@@ -71,15 +71,16 @@ Los temas estan divididos en 6 semanas, 3 sesiones por semana.
 
 ## 📺 Grabaciones sesiones
 
-### Semana 1 -
-[Lunes 29 Agosto / GIT](https://drive.google.com/file/d/1Bn4dx9wmRW4nHjMDri_cLIsjuvqJYIOl/view?usp=sharing)
+### Semana 1
+-[Lunes 29 Agosto/GIT](https://drive.google.com/file/d/1Bn4dx9wmRW4nHjMDri_cLIsjuvqJYIOl/view?usp=sharing)
+-[Martes 30 Agosto/Microservicios](https://drive.google.com/file/d/1RmlfJ3kJwqWdpxLs9ez_rogsEULsomsT/view?usp=sharing)
 
 ## Presentaciones sesiones
 
-### Semana 1 -
-[Lunes 29 Agosto / GIT](https://drive.google.com/file/d/1ynPt0rXOtYchhkA1qhl1bLTyaN1hR-6e/view?usp=sharing)
-
-[Martes 30 Agosto / Microservicios](https://drive.google.com/file/d/1A4GyyWAzq_rrowehMN3IacY1DcM7mjqF/view?usp=sharing)
+### Semana 1
+-[Lunes 29 Agosto/GIT](https://drive.google.com/file/d/1ynPt0rXOtYchhkA1qhl1bLTyaN1hR-6e/view?usp=sharing)
+-[Martes 30 Agosto/Microservicios](https://drive.google.com/file/d/1A4GyyWAzq_rrowehMN3IacY1DcM7mjqF/view?usp=sharing)
+-[Miércoles 31 Agosto/Microservicios](https://drive.google.com/file/d/1A4GyyWAzq_rrowehMN3IacY1DcM7mjqF/view?usp=sharing)
 
 
 # IV. Proyecto Final (Capstone Project)
@@ -106,7 +107,7 @@ Selecciona la liga de abajo de cualquiera de los mentores, te abrira su calendar
 # VI. PROYECTO BAZ SUPERAPP / BANCA DIGITAL (Asignado por Líder de Gremio)
 
 - **BAZ Superapp**: En este [documento](https://docs.google.com/spreadsheets/d/1s5AqSzC3n0YEgiJry5rCa152tEzda5TJtMzM9VEfJ4U/edit?usp=sharing) encontrarás la información sobre el proyecto asignado según tu gremio y líder de gremio.
-
+- **BANCA DIGITAL**: Siguen con sus actividades habituales asignadas por su líder de gremio
 
 # VII. Contacto Wizeline Academy
 Si tienes alguna duda sobre el programa, logística, accesos, etc. por favor contacta al equipo de Wizeline Academy
