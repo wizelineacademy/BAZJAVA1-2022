@@ -95,12 +95,12 @@ Selecciona la liga de abajo de cualquiera de los mentores, te abrira su calendar
 
 - [Neftali Ramos](https://calendly.com/neftali-ramos/mentoria-baz) (GIT, Microservicios, RestAPIs, Serverless)
 - [Francisco Mojica](https://calendly.com/paco-mojica/mentoria-baz) (GIT, Microservicios, RestAPIs, Serverless)
-- [David Guerra](https://calendly.com/paco-mojica/mentoria-baz) (GIT, Microservicios, RestAPIs, Serverless)
 - [Mario Cruz](https://calendly.com/mario-cruz-wizeline) (Kafka, Codigo Limpio)
 - [Diana Fernandez](https://calendly.com/dianafernandez-wizeline/mentoria-baz) (Codigo Limpio)
 - [Victor Lozano](https://calendly.com/hugo-wizeline/mentoria-baz) (Codigo Limpio)
 - [Gerardo Ruiz](https://calendly.com/gerardoruiz-wizeline/mentoria-baz) (Java, Spring Boot, JUnit)
 - [Jose Perea](https://calendly.com/jose-vazquez-wizeline) (Java, Spring Boot, JUnit)
+- [David Guerra](https://calendly.com/paco-mojica/mentoria-baz) (Java)
 
 
 # VI. PROYECTO BAZ SUPERAPP / BANCA DIGITAL (Asignado por Líder de Gremio)
