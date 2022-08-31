@@ -83,6 +83,7 @@ Los temas estan divididos en 6 semanas, 3 sesiones por semana.
 -[Miércoles 31 Agosto/Microservicios](https://drive.google.com/file/d/1A4GyyWAzq_rrowehMN3IacY1DcM7mjqF/view?usp=sharing)
 
 
+
 # IV. Proyecto Final (Capstone Project)
 ✴️ **Objetivo**
 Para aprobar el curso tendrás que desarrollar un proyecto final en el cual reforzaras y aplicaras los conocimientos que vas adquiriendo 
