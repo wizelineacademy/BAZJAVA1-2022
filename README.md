@@ -72,16 +72,18 @@ Los temas estan divididos en 6 semanas, 3 sesiones por semana.
 ## 📺 Grabaciones sesiones
 
 ### Semana 1
--[Lunes 29 Agosto/GIT](https://drive.google.com/file/d/1Bn4dx9wmRW4nHjMDri_cLIsjuvqJYIOl/view?usp=sharing)
--[Martes 30 Agosto/Microservicios](https://drive.google.com/file/d/1RmlfJ3kJwqWdpxLs9ez_rogsEULsomsT/view?usp=sharing)
+- [Lunes 29 Agosto/GIT](https://drive.google.com/file/d/1Bn4dx9wmRW4nHjMDri_cLIsjuvqJYIOl/view?usp=sharing)
+- [Martes 30 Agosto/Microservicios](https://drive.google.com/file/d/1RmlfJ3kJwqWdpxLs9ez_rogsEULsomsT/view?usp=sharing)
+- [Miércoles 31 Agosto/Microservicios]
+- [Jueves 1 Sep/RestAPIS]
+- [Viernes 2 Sep/Serverless]
 
 ## Presentaciones sesiones
 
 ### Semana 1
--[Lunes 29 Agosto/GIT](https://drive.google.com/file/d/1ynPt0rXOtYchhkA1qhl1bLTyaN1hR-6e/view?usp=sharing)
--[Martes 30 Agosto/Microservicios](https://drive.google.com/file/d/1A4GyyWAzq_rrowehMN3IacY1DcM7mjqF/view?usp=sharing)
--[Miércoles 31 Agosto/Microservicios](https://drive.google.com/file/d/1A4GyyWAzq_rrowehMN3IacY1DcM7mjqF/view?usp=sharing)
-
+- [Lunes 29 Agosto/GIT](https://drive.google.com/file/d/1ynPt0rXOtYchhkA1qhl1bLTyaN1hR-6e/view?usp=sharing)
+- [Martes 30 Agosto/Microservicios](https://drive.google.com/file/d/1A4GyyWAzq_rrowehMN3IacY1DcM7mjqF/view?usp=sharing)
+- [Miércoles 31 Agosto/Microservicios](https://drive.google.com/file/d/1A4GyyWAzq_rrowehMN3IacY1DcM7mjqF/view?usp=sharing)
 
 # IV. Proyecto Final (Capstone Project)
 ✴️ **Objetivo**
@@ -94,15 +96,14 @@ Si deseas una tener una mentoria personalizada en línea con alguno de los mento
 
 Selecciona la liga de abajo de cualquiera de los mentores, te abrira su calendario con la disponibilidad por dia y horarios. Elige el que mejor se acomode a tu necesidad.
 
-- [Neftali Ramos](https://calendly.com/neftali-ramos/mentoria-baz) (GIT, Microservicios, RestAPIs, Serverless)
+- [Neftali Ramos](https://calendly.com/neftali-ramos/mentoria-baz) (GIT, Microservicios, RestAPIs, Serverless, MongoDB)
 - [Francisco Mojica](https://calendly.com/paco-mojica/mentoria-baz) (GIT, Microservicios, RestAPIs, Serverless)
-- [Mario Cruz](https://calendly.com/mario-cruz-wizeline) (Kafka, Codigo Limpio)
-- [Diana Fernandez](https://calendly.com/dianafernandez-wizeline/mentoria-baz) (Codigo Limpio)
+- [Mario Cruz](https://calendly.com/mario-cruz-wizeline) (Kafka)
+- [Diana Fernandez](https://calendly.com/dianafernandez-wizeline/mentoria-baz) (MongoDB, Codigo Limpio)
 - [Victor Lozano](https://calendly.com/hugo-wizeline/mentoria-baz) (Codigo Limpio)
 - [Gerardo Ruiz](https://calendly.com/gerardoruiz-wizeline/mentoria-baz) (Java, Spring Boot, JUnit)
 - [Jose Perea](https://calendly.com/jose-vazquez-wizeline) (Java, Spring Boot, JUnit)
 - [David Guerra](https://calendly.com/paco-mojica/mentoria-baz) (Java)
-
 
 # VI. PROYECTO BAZ SUPERAPP / BANCA DIGITAL (Asignado por Líder de Gremio)
 
