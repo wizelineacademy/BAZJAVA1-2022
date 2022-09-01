@@ -74,6 +74,9 @@ Los temas estan divididos en 6 semanas, 3 sesiones por semana.
 ### Semana 1
 - [Lunes 29 Agosto/GIT](https://drive.google.com/file/d/1Bn4dx9wmRW4nHjMDri_cLIsjuvqJYIOl/view?usp=sharing)
 - [Martes 30 Agosto/Microservicios](https://drive.google.com/file/d/1RmlfJ3kJwqWdpxLs9ez_rogsEULsomsT/view?usp=sharing)
+- [Miércoles 31 Agosto/Microservicios]
+- [Jueves 1 Sep/RestAPIS]
+- [Viernes 2 Sep/Serverless]
 
 ## Presentaciones sesiones
 
