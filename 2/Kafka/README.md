@@ -74,12 +74,12 @@ Al crear el TOPIC nos saldra un log similar a:
 ```bash
 bin/kafka-console-producer.sh --topic <topic-name> --bootstrap-server localhost:<kafka-server-port> 
 > <type-data>
-> <data>
-> <data>
+> <type-data>
+> <type-data>
 
 # para Windows
 .\bin\windows\kafka-console-producer.bat --topic <topic-name> --bootstrap-server localhost:<kafka-server-port> 
-> <type-data>
+> <data>
 > <data>
 > <data>
 ```
