@@ -8,6 +8,7 @@ Recursos de estudio de la sesión en vivo
 - [AWS Online Tech Talks](https://aws.amazon.com/events/online-tech-talks/on-demand/?ott-on-demand-all.sort-by=item.additionalFields.startDateTime&ott-on-demand-all.sort-order=desc&awsf.ott-on-demand-master-level=*all&awsf.ott-on-demand-master-category=*all&awsf.ott-on-demand-master-format=*all)
 - [AWS Documentation](https://docs.aws.amazon.com)
 - [AWS Digital Training](https://aws.amazon.com/training/digital/?cta=tctopbanner)
+- [Uso de urls pre-firmadas para compartir archivos de S3](https://docs.aws.amazon.com/AmazonS3/latest/userguide/ShareObjectPreSignedURL.html)
 ### Serverless 101
 - Libro - Learning Serverless By Jason Katzer, O'reilly
 - [Red Hat - ¿Qué es un PaaS](https://www.redhat.com/es/topics/cloud-computing/what-is-paas)
