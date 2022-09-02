@@ -19,7 +19,8 @@ Para realizar este curso es importante tener instalado los siguientes programas:
 
 Para la instalación en Windows seguir el siguiente video:
 
-https://youtu.be/aKDWWICgfA0
+https://youtu.be/aKDWWICgfA0 (en)
+https://youtu.be/u5THXLlW0tU (es)
 
 
 ## Kafka CLI (Command Line Interface) 101
@@ -102,7 +103,7 @@ Añadir la flag `--from-beginning` despues del nombre del topic
 
 
 ### Practica
-La practica y ejercicios se pueden encontrar dentro del siguiente [repositorio](https://github.com/MarcoRob/kafka-101-practice)
+La practica y ejercicios las podemos encontrar en el directorio de practica
 
 
 # :books: Para aprender mas
@@ -110,3 +111,6 @@ La practica y ejercicios se pueden encontrar dentro del siguiente [repositorio](
 * https://kafka.apache.org/
 * https://developer.confluent.io/learn-kafka/
 * https://www.pluralsight.com/courses/apache-kafka-getting-started
+* [Aprendiendo Apache Kafka Pt 1](https://www.enmilocalfunciona.io/aprendiendo-apache-kafka-parte-1/)
+* [Aprendiendo Apache Kafka Pt 2](https://www.enmilocalfunciona.io/aprendiendo-apache-kafka-parte-2-2/)
+* [Aprendiendo Apache Kafka Pt 4 - Instalación](https://www.enmilocalfunciona.io/aprendiendo-apache-kafka-parte-4/)
