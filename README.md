@@ -69,21 +69,9 @@ Los temas estan divididos en 6 semanas, 3 sesiones por semana.
    2. [Pruebas Unitarias](6/PruebasUnitarias/README.md)
    3. [Registros](6/Registros/README.md)
 
-## 📺 Grabaciones sesiones
+## 📺 Grabaciones sesiones y Presentaciones
 
-### Semana 1
-- [Lunes 29 Agosto/GIT](https://drive.google.com/file/d/1Bn4dx9wmRW4nHjMDri_cLIsjuvqJYIOl/view?usp=sharing)
-- [Martes 30 Agosto/Microservicios](https://drive.google.com/file/d/1RmlfJ3kJwqWdpxLs9ez_rogsEULsomsT/view?usp=sharing)
-- [Miércoles 31 Agosto/Microservicios]
-- [Jueves 1 Sep/RestAPIS]
-- [Viernes 2 Sep/Serverless]
-
-## Presentaciones sesiones
-
-### Semana 1
-- [Lunes 29 Agosto/GIT](https://drive.google.com/file/d/1ynPt0rXOtYchhkA1qhl1bLTyaN1hR-6e/view?usp=sharing)
-- [Martes 30 Agosto/Microservicios](https://drive.google.com/file/d/1A4GyyWAzq_rrowehMN3IacY1DcM7mjqF/view?usp=sharing)
-- [Miércoles 31 Agosto/Microservicios](https://drive.google.com/file/d/1A4GyyWAzq_rrowehMN3IacY1DcM7mjqF/view?usp=sharing)
+En [esta liga](https://github.com/wizelineacademy/BAZJAVA12022/blob/main/Grabaciones%20y%20Presentaciones.md) encontrarás todas las grabaciones y presentaciones del curso.
 
 # IV. Proyecto Final (Capstone Project)
 ✴️ **Objetivo**
