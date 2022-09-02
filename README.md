@@ -69,7 +69,7 @@ Los temas estan divididos en 6 semanas, 3 sesiones por semana.
    2. [Pruebas Unitarias](6/PruebasUnitarias/README.md)
    3. [Registros](6/Registros/README.md)
 
-## 📺 Grabaciones sesiones
+## 📺 Grabaciones sesiones y Presentaciones
 
 En [esta liga](https://github.com/wizelineacademy/BAZJAVA12022/blob/main/Grabaciones%20y%20Presentaciones.md) encontrarás todas las grabaciones y presentaciones del curso.
 
