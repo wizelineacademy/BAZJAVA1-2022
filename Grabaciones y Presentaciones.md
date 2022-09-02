@@ -2,15 +2,15 @@
 Aquí encontrarás todas las grabaciones y presentaciones una vez finalizada cada sesión.
 
 # Semana 1
-- [Lunes 29 Agosto/GIT](https://drive.google.com/file/d/1_8IvmSu4LQeKWfdeZWZ2N-awlzkzL3PB/view?usp=sharing)
+- [Lunes 29 Agosto - GIT](https://drive.google.com/file/d/1_8IvmSu4LQeKWfdeZWZ2N-awlzkzL3PB/view?usp=sharing)
 - 📺 [Grabacion Lunes 29 Agosto](https://drive.google.com/file/d/1Bn4dx9wmRW4nHjMDri_cLIsjuvqJYIOl/view?usp=sharing)
-- [Martes 30 Ago/Microservicios II](https://drive.google.com/file/d/1u9Xd8SnqGWnI-ZYZSeX97uNTVajE_lk-/view?usp=sharing)
+- [Martes 30 Ago - Microservicios II](https://drive.google.com/file/d/1u9Xd8SnqGWnI-ZYZSeX97uNTVajE_lk-/view?usp=sharing)
 - 📺 [Grabacion Martes 30 Ago](https://drive.google.com/file/d/1RmlfJ3kJwqWdpxLs9ez_rogsEULsomsT/view?usp=sharing)
-- [Miércoles 31 Ago/Microservicios II](https://drive.google.com/file/d/1u9Xd8SnqGWnI-ZYZSeX97uNTVajE_lk-/view?usp=sharing)
+- [Miércoles 31 Ago - Microservicios II](https://drive.google.com/file/d/1u9Xd8SnqGWnI-ZYZSeX97uNTVajE_lk-/view?usp=sharing)
 - 📺 [Grabacion Miércoles 31 Ago]
-- [Jueves 1 Sep/RestAPIS](https://drive.google.com/file/d/1FLXT26CZvrmMA8QgOZIslYWPFAijBZoR/view?usp=sharing)
+- [Jueves 1 Sep - RestAPIS](https://drive.google.com/file/d/1FLXT26CZvrmMA8QgOZIslYWPFAijBZoR/view?usp=sharing)
 - 📺 [Grabacion Jueves 1 Sep]
-- [Viernes 2 Sep/Serverless]
+- [Viernes 2 Sep - Serverless]
 - 📺 [Grabacion Viernes 2 Sep]
 
 # Semana 2
