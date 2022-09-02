@@ -19,8 +19,8 @@ Para realizar este curso es importante tener instalado los siguientes programas:
 
 Para la instalación en Windows seguir el siguiente video:
 
-https://youtu.be/aKDWWICgfA0 (en)
-https://youtu.be/u5THXLlW0tU (es)
+* https://youtu.be/aKDWWICgfA0 (en)
+* https://youtu.be/u5THXLlW0tU (es)
 
 
 ## Kafka CLI (Command Line Interface) 101
