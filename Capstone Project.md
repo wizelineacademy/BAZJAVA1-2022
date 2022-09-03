@@ -1,6 +1,6 @@
 
-✴️ **Objetivo**
-Para aprobar el curso tendrás que desarrollar un proyecto final en el cual reforzarás y aplicarás los conocimientos que vas adquiriendo.
+**Objetivo**
+Desarrollar una aplicación con todos sus elementos desde la creación de un repositorio hasta la inclusión de pruebas unitarias para demostrar el aprendizaje adquirido en el curso.
 
 ## Fechas de Entrega
 1º: Lunes 12 Septiembre 9 a.m.
