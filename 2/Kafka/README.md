@@ -49,7 +49,7 @@ Luego abrimos una segunda terminal, y nos movemos de nuevo al directorio de kafk
 bin/kafka-server-start.sh config/server.properties
 
 # para Windows
-.\bin\windows\zookeeper-server-start.bat .\config\server.properties
+.\bin\windows\kafka-server-start.bat .\config\server.properties
 # si se inicializa bien veremos el log 
 # INFO [KafkaServer id=0] started (kafka.server....)
 ``` 
