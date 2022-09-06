@@ -2,6 +2,7 @@
 
 ## Pre-requisitos de la sesión en vivo
 - Tener instalado [Docker](https://www.docker.com/)
+- En caso de no tener instalado Docker, tener instalado [MongoDB](https://coder-solution-es.com/solution-es-blog/1227314)
 - Revisar los conceptos básicos:
 
 ## Temario
