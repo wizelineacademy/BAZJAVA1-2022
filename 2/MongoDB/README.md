@@ -54,7 +54,7 @@ Para importar estos datos se pueden utilizar los siguientes comandos:
    * ```docker cp sakila/stores.json mongodb:/tmp/stores.json```
    * ```docker exec mongodb mongoimport -d sakila -c customers --file /tmp/customers.json```
    * ```docker exec mongodb mongoimport -d sakila -c films --file /tmp/films.json```
-   * ```docker exec mongodb mongoimport -d stores -c films --file /tmp/stores.jso```
+   * ```docker exec mongodb mongoimport -d sakila -c stores --file /tmp/stores.json```
 
 ### Operaciones CRUD
 Referencia: [Operaciones CRUD](https://platzi.com/contributions/operaciones-crud-en-mongodb/)
