@@ -14,7 +14,7 @@ Aquí encontrarás todas las grabaciones y presentaciones una vez finalizada cad
 - 📺 [Grabacion Viernes 2 Sep](https://drive.google.com/file/d/1dbQLH7TXdFLvPTr3Y6I1nkAexKMGivmS/view?usp=sharing)
 
 # Semana 2
-- [Lunes 5 Sep/Kafka I]
+- [Lunes 5 Sep/Kafka I](https://drive.google.com/file/d/1il7zSjsAroRHCxtNF9eSbAY7oqb8XjcM/view?usp=sharing)
 - 📺 [Grabacion Lunes 5 Sep]
 - [Martes 6 Sep/Kafka II]
 - 📺 [Grabacion Martes 6 Sep]
