@@ -15,7 +15,7 @@ Aquí encontrarás todas las grabaciones y presentaciones una vez finalizada cad
 
 # Semana 2
 - [Lunes 5 Sep/Kafka I](https://drive.google.com/file/d/1il7zSjsAroRHCxtNF9eSbAY7oqb8XjcM/view?usp=sharing)
-- 📺 [Grabacion Lunes 5 Sep]
+- 📺 [Grabacion Lunes 5 Sep](https://drive.google.com/file/d/1u5IXK8yrF5wM-EyXxdG8ez7_r-nsBtu6/view?usp=sharing)
 - [Martes 6 Sep/Kafka II]
 - 📺 [Grabacion Martes 6 Sep]
 - [Miércoles 7 Sep/MongoDB I]
