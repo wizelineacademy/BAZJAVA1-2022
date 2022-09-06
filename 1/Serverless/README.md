@@ -1,3 +1,7 @@
+# :tv: Video
+- [Viernes 2 Sep - Serverless](https://drive.google.com/file/d/1u9Xd8SnqGWnI-ZYZSeX97uNTVajE_lk-/view?usp=sharing)
+- 📺 [Grabacion Viernes 2 Sep](https://drive.google.com/file/d/1dbQLH7TXdFLvPTr3Y6I1nkAexKMGivmS/view?usp=sharing)
+
 # Serverless 1
 Recursos de estudio de la sesión en vivo
 ## Pre-requisitos de la sesión en vivo
