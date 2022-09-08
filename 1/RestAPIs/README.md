@@ -1,6 +1,6 @@
-# :tv:  Video
+# :tv: Video y Presentacion
 - [Jueves 1 Sep - RestAPIS](https://drive.google.com/file/d/1FLXT26CZvrmMA8QgOZIslYWPFAijBZoR/view?usp=sharing)
-- 📺 [Grabacion Jueves 1 Sep](https://drive.google.com/file/d/1NJPYc0Tz0epoVn3oY-1EhF7UXTO2B6_8/view?usp=sharing)
+- [Grabacion Jueves 1 Sep](https://drive.google.com/file/d/1NJPYc0Tz0epoVn3oY-1EhF7UXTO2B6_8/view?usp=sharing)
 
 # :computer:  Actividades
 
