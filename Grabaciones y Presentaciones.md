@@ -19,7 +19,7 @@ Aquí encontrarás todas las grabaciones y presentaciones una vez finalizada cad
 - [Martes 6 Sep/Kafka II](https://drive.google.com/file/d/1il7zSjsAroRHCxtNF9eSbAY7oqb8XjcM/view?usp=sharing)
 - 📺 [Grabacion Martes 6 Sep](https://drive.google.com/file/d/1rc8I5prIeLWbk6NkB2jR6dxl24lQDs8f/view?usp=sharing)
 - [Miércoles 7 Sep/MongoDB I](https://drive.google.com/file/d/1k1z-d4NDT-JLexr5aDWUh7lxQvMRHcpI/view?usp=sharing)
-- 📺 [Grabacion Miércoles 7 Sep]
+- 📺 [Grabacion Miércoles 7 Sep](https://drive.google.com/file/d/1BHnziMTL7Y8fCAY1Zjp7qo-LypAIN5fM/view?usp=sharing)
 - [Jueves 8 Sep/MongoDB II](https://drive.google.com/file/d/17V-G4R7STZQAWfIw6oxpBUnetZJVUCdp/view?usp=sharing)
 - 📺 [Grabacion Jueves 8 Sep]
 - [Viernes 9 Sep/Clean Code](https://drive.google.com/file/d/1e_ZxYahEZwA77896Jc64ZeGClnF5H2tb/view?usp=sharing)
