@@ -13,9 +13,8 @@ Para realizar este curso es importante tener instalado los siguientes programas:
 ## Java línea de comando
 Una vez que JDK y Intellij fue descargados e instalados, procederemos a validar que este bien instalado para comenzar las pruebas
 
-### PASO 1: Iniciar ZooKeeper service y Kafka Server
-Abrimos una terminal y nos movemos al directorio donde se descargo Kafka 
-(ej. C:/Downloads/kafka_2.13-3.2.1)
+### PASO 1: Validar entorno
+Abrimos una terminal y validamos si reconoce nuestra versión de Java:
 
 ``` bash
 # Iniciamos validando que nuestra consola reconosca la versión de Java
