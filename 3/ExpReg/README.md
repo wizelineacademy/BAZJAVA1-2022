@@ -11,6 +11,7 @@
     * [Visual Studio Code](https://code.visualstudio.com/download)
     * [IntelliJ](https://www.jetbrains.com/idea/download)
 - [Postman](https://www.postman.com/downloads/)
+- [json-20220320.jar](https://repo1.maven.org/maven2/org/json/json/20220320/)
 
 # :computer: Requests
 ``` bash
