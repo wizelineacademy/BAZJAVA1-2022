@@ -8,7 +8,7 @@ Aquí encontrarás todas las grabaciones y presentaciones una vez finalizada cad
 - 📺 [Grabacion Martes 30 Ago](https://drive.google.com/file/d/1RmlfJ3kJwqWdpxLs9ez_rogsEULsomsT/view?usp=sharing)
 - [Miércoles 31 Ago - Microservicios II](https://drive.google.com/file/d/1FLXT26CZvrmMA8QgOZIslYWPFAijBZoR/view?usp=sharing)
 - 📺 [Grabacion Miércoles 31 Ago](https://drive.google.com/file/d/1P9yOxAuO0ICVepcYx5QtyOlNkr8HokEw/view?usp=sharing)
-- [Jueves 1 Sep - RestAPIS](https://drive.google.com/file/d/1FLXT26CZvrmMA8QgOZIslYWPFAijBZoR/view?usp=sharing)
+- [Jueves 1 Sep - RestAPIS](https://drive.google.com/file/d/1tavRzBdVIsECrnyB3_JEmTWcMZSV8fRm/view?usp=sharing)
 - 📺 [Grabacion Jueves 1 Sep](https://drive.google.com/file/d/1NJPYc0Tz0epoVn3oY-1EhF7UXTO2B6_8/view?usp=sharing)
 - [Viernes 2 Sep - Serverless](https://drive.google.com/file/d/1u9Xd8SnqGWnI-ZYZSeX97uNTVajE_lk-/view?usp=sharing)
 - 📺 [Grabacion Viernes 2 Sep](https://drive.google.com/file/d/1dbQLH7TXdFLvPTr3Y6I1nkAexKMGivmS/view?usp=sharing)
