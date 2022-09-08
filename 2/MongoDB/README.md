@@ -1,4 +1,4 @@
-# :tv: Video y Presentacions
+# :tv: Video y Presentacion
 
 - [Miércoles 7 Sep/MongoDB I](https://drive.google.com/file/d/1k1z-d4NDT-JLexr5aDWUh7lxQvMRHcpI/view?usp=sharing)
 - [Grabacion Miércoles 7 Sep]
