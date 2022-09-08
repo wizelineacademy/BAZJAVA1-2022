@@ -14,9 +14,9 @@ Aquí encontrarás todas las grabaciones y presentaciones una vez finalizada cad
 - 📺 [Grabacion Viernes 2 Sep](https://drive.google.com/file/d/1dbQLH7TXdFLvPTr3Y6I1nkAexKMGivmS/view?usp=sharing)
 
 # Semana 2
-- [Lunes 5 Sep/Kafka I](https://drive.google.com/file/d/1il7zSjsAroRHCxtNF9eSbAY7oqb8XjcM/view?usp=sharing)
+- [Lunes 5 Sep/Kafka I](https://drive.google.com/file/d/1SARKWTg_4_gFFomos9PsOTOUUwmfiVF9/view?usp=sharing)
 - 📺 [Grabacion Lunes 5 Sep](https://drive.google.com/file/d/1u5IXK8yrF5wM-EyXxdG8ez7_r-nsBtu6/view?usp=sharing)
-- [Martes 6 Sep/Kafka II](https://drive.google.com/file/d/1il7zSjsAroRHCxtNF9eSbAY7oqb8XjcM/view?usp=sharing)
+- [Martes 6 Sep/Kafka II]
 - 📺 [Grabacion Martes 6 Sep](https://drive.google.com/file/d/1rc8I5prIeLWbk6NkB2jR6dxl24lQDs8f/view?usp=sharing)
 - [Miércoles 7 Sep/MongoDB I](https://drive.google.com/file/d/1k1z-d4NDT-JLexr5aDWUh7lxQvMRHcpI/view?usp=sharing)
 - 📺 [Grabacion Miércoles 7 Sep](https://drive.google.com/file/d/1BHnziMTL7Y8fCAY1Zjp7qo-LypAIN5fM/view?usp=sharing)
