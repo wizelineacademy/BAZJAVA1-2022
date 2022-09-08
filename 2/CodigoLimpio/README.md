@@ -1,3 +1,7 @@
+# :tv: Video
+- [Viernes 9 Sep/Clean Code]
+- 📺 [Grabacion Viernes 9 Sep]
+
 # Codigo Limpio
 
 ### Pre-requisitos de la sesión en vivo
