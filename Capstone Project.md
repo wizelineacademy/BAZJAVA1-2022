@@ -24,9 +24,9 @@ El proyecto está confirmado de los ejercicios y tareas que se van realizando en
 
 | **Tópico**                                                                                                                                                 | **Puntaje** |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------|
+| Repositorio de GitHub creado                                                                                                                               | 10          |
 | Dockerfile ejecutable                                                                                                                                      | 10          |
 | Archivo de Docker Compose que permita levantar el contendor                                                                                                | 10          |
-| Colección de Postman realizando una petición de cada tipo (GET, POST, PUT, DELETE, HEAD) a una API pública (por lo menos una de ellas debe ser comprimida) | 10          |
 | Colección de Postman realizando una petición de cada tipo a una API pública                                                                                | 10          |
 | Función Lambda creada en la cuenta que permita la ejecución de código                                                                                      | 10          |
 | Captura de pantalla de logs en Cloudwatch                                                                                                                  | 10          |
