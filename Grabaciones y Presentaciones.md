@@ -23,7 +23,7 @@ Aquí encontrarás todas las grabaciones y presentaciones una vez finalizada cad
 - [Jueves 8 Sep/MongoDB II](https://drive.google.com/file/d/17V-G4R7STZQAWfIw6oxpBUnetZJVUCdp/view?usp=sharing)
 - 📺 [Grabacion Jueves 8 Sep](https://drive.google.com/file/d/1EhESoYcEOHYJLo2aC03hi-5ifLMZCSej/view?usp=sharing)
 - [Viernes 9 Sep/Clean Code](https://drive.google.com/file/d/1e_ZxYahEZwA77896Jc64ZeGClnF5H2tb/view?usp=sharing)
-- 📺 [Grabacion Viernes 9 Sep]
+- 📺 [Grabacion Viernes 9 Sep](https://drive.google.com/file/d/1lH2K-t-ufJF1BHgiRCZhAwcE-YBABcNI/view?usp=sharing)
 
 # Semana 3
 - [Lunes 12 Sep/Java I]
