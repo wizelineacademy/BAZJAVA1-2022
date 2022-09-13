@@ -93,6 +93,7 @@ Selecciona la liga de abajo de cualquiera de los mentores, te abrira su calendar
 - [Victor Lozano](https://calendly.com/hugo-wizeline/mentoria-baz) (Codigo Limpio)
 - [Gerardo Ruiz](https://calendly.com/gerardoruiz-wizeline/mentoria-baz) (Java, Spring Boot, JUnit)
 - [Jose Perea](https://calendly.com/jose-vazquez-wizeline) (Java, Spring Boot, JUnit)
+- [David Guerra](https://calendly.com/david-guerrab/mentoria-baz) (Java, 
 
 # VI. PROYECTO BAZ SUPERAPP / BANCA DIGITAL (Asignado por Líder de Gremio)
 
