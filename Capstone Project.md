@@ -5,6 +5,7 @@ El proyecto está confirmado de los ejercicios y tareas que se van realizando en
 
 # Entregables
 
+
 ## Fechas de Entrega
 1º: Lunes 12 Septiembre 6 p.m.
 
@@ -12,7 +13,21 @@ El proyecto está confirmado de los ejercicios y tareas que se van realizando en
 
 3º: Lunes 10 Octubre 9 a.m.
 
-### Para poder considerar completadas las semanas 1 y 2 de entrenamiento debe contemplar lo siguiente:
+
+## Entregable 1
+
+- **Objetivo** 
+
+- **Temas relacionados**: Semana 1 y 2
+  - Github
+  - Microservicios
+  - RestAPIs
+  - Kafka
+  - MongoDB
+  - Serverless
+
+### Requerimientos
+
 - Crear un repositorio en GitHub 
 - Dockerfile ejecutable
 - Archivo de Docker Compose que permita levantar el contendor
@@ -23,6 +38,8 @@ El proyecto está confirmado de los ejercicios y tareas que se van realizando en
 - Base de datos de MongoDB exportada
 - Impresión de pantalla de operaciones CRUD en datos reales de MongoDB
 - Diagrama de clases inicial y diagrama de clases con un patrón de diseño creacional aplicado
+
+### Criterio de Evaluación
 
 | **Tópico**                                                                                                                                                 | **Puntaje** |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------|
@@ -38,6 +55,14 @@ El proyecto está confirmado de los ejercicios y tareas que se van realizando en
 | Diagrama de clases inicial y diagrama de clases con un patrón de diseño creacional aplicado                                                                | 10          |
 | **Total**                                                                                                                                                  | **100**     |
 | **Mínimo Aprobatorio**                                                                                                                                     | **70**      |
+
+
+## Entregable 2
+
+- **Objetivo** 
+
+- **Temas relacionados**: Semana 3 y 4
+  - Java
 
 ### Para poder considerar completadas las semanas 3 y 4 de entrenamiento debe contemplar lo siguiente:
 - Proyecto en Java 11 ejecutable por línea de comandos y desplegable en el contenedor creado en el primer entregable
@@ -56,6 +81,9 @@ El proyecto está confirmado de los ejercicios y tareas que se van realizando en
 - Uso de al menos tres anotaciones
 - Uso de por lo menos dos beans
 - Uso de por lo menos dos patrones de diseño creacionales
+
+
+### Criterio de Evaluación
 
 | **Tópico**                                                                                  | **Puntaje** |
 |---------------------------------------------------------------------------------------------|-------------|
@@ -83,6 +111,15 @@ El proyecto está confirmado de los ejercicios y tareas que se van realizando en
 | **Total**                                                                                   | **170**     |
 | **Mínimo aprobatorio**                                                                      | **120**     |
 
+
+## Entregable 3
+
+- **Objetivo** 
+
+- **Temas relacionados**: Semana 5 y 6
+  - Java
+  - Pruebas unitarias
+
 ### Para poder considerar completadas las semanas 5 y 6 de entrenamiento debe contemplar lo siguiente:
 - Proyecto generado por Spring Initializr y desplegable en el contenedor creado en el primer entregable
 - Todas sus propiedades deben estar descritas en el archivo “application.properties” con el formato de nombre correcto
@@ -93,6 +130,8 @@ El proyecto está confirmado de los ejercicios y tareas que se van realizando en
 - Comunicarse con la base de datos de MongoDB creada en el primer entregable a través de Spring Data JPA con MongoTemplate y poder realizar operaciones CRUD (creación, lectura, actualización y borrado de registros)
 - Comunicarse con Lambda en AWS y con Kafka empleando librerías oficiales usando dependencias
 - Crear por lo menos una prueba unitaria de cada endpoint generado con Spring MVC, decada operación realizada con Spring Data JPA y de cada integración empleando Mockito generando logs en la ejecución de cada una y contemplar Happy Path y Edge Cases, usando JaCoCo o SonarCloud como herramientas de cobertura de pruebas
+
+### Criterio de Evaluación
 
 | **Tópico**                                                        | **Puntaje** |
 |-------------------------------------------------------------------|-------------|
