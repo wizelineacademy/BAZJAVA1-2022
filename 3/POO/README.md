@@ -177,13 +177,13 @@ La practica y ejercicios las podemos encontrar en el directorio de practica
 
 18. Puedes descargar de la siguiente liga la colección de Postman que usaremos para consumir nuestros servicios:
 
-* [LearningJava.postman_collection.json:] (/Postman/LearningJava.postman_collection.json)
+* [LearningJava.postman_collection.json](./Postman/LearningJava.postman_collection.json)
 
 
 # :books: Para aprender mas
-* [Java:] (https://dev.java)
-* [Java Documentation:] (https://docs.oracle.com/en/java/)
-* [Learn Java:] (https://dev.java/learn/)
-* [Frequently Asked Questions (FAQs):] (https://dev.java/learn/faq/)
-* [Java Youtube:] (https://www.youtube.com/java)
-* [JRE/JDK:] (https://www.oracle.com/java/technologies/javase-downloads.html)
+* [Java](https://dev.java)
+* [Java Documentation](https://docs.oracle.com/en/java/)
+* [Learn Java](https://dev.java/learn/)
+* [Frequently Asked Questions (FAQs)](https://dev.java/learn/faq/)
+* [Java Youtube](https://www.youtube.com/java)
+* [JRE/JDK](https://www.oracle.com/java/technologies/javase-downloads.html)
