@@ -26,7 +26,7 @@ Aquí encontrarás todas las grabaciones y presentaciones una vez finalizada cad
 - 📺 [Grabacion Viernes 9 Sep](https://drive.google.com/file/d/1lH2K-t-ufJF1BHgiRCZhAwcE-YBABcNI/view?usp=sharing)
 
 # Semana 3
-- [Lunes 12 Sep/Java I]
+- [Lunes 12 Sep/Java I](https://drive.google.com/file/d/11SlfwloDlvcFRLEwzsIauSkz8gUqipk1/view?usp=sharing)
 - 📺 [Grabacion Lunes 12 Sep]
 - [Martes 13 Sep/Java II]
 - 📺 [Grabacion Martes 13 Sep]
