@@ -132,14 +132,11 @@ La practica y ejercicios las podemos encontrar en el directorio de practica
 
 
 
-10. Ahora vamos a crear nuestra clase main dentro del paquete com.wizeline cuyo nombre será "LearningJava.java":
+10. Ahora vamos a crear nuestra clase main dentro del paquete com.wizeline cuyo nombre será "LearningJava.java".
 
-![Alt text](./Images/4.MainClass.png "Clase Main")
+11. Crearemos el siguiente método dentro de la clse "LearningJava.java" y lo usaremos para recuperar la URI y parámetros:
 
-
-11. Crearemos el siguiente método que usaremos para recuperar la URI y parámetros:
-
-![Alt text](./Images/15.GetURI.png "Método para manejar la URI)
+![Alt text](./Images/15.GetURI.png "Método para manejar la URI")
 
 
 12. Ahora vamos a crear un método para vaciar los paramtros recibidos, podemos crear un solo metodo ya que para este ejercicio usaremos el mismo DTO:
@@ -181,8 +178,6 @@ La practica y ejercicios las podemos encontrar en el directorio de practica
 18. Puedes descargar de la siguiente liga la colección de Postman que usaremos para consumir nuestros servicios:
 
 * [LearningJava.postman_collection.json:] (./Postman/LearningJava.postman_collection.json)
-
-
 
 
 # :books: Para aprender mas
