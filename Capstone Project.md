@@ -2,6 +2,9 @@
 # El Proyecto
 El proyecto está confirmado de los ejercicios y tareas que se van realizando en las sesiones impartidas a lo largo del curso, por lo que para cada entregable debe enviarse la liga del repositorio creado en el primer día que contendrá cada entregable para su revisión usando este Google Form: https://forms.gle/q4zFogV3ncvM2JE39
 
+
+# Entregables
+
 ## Fechas de Entrega
 1º: Lunes 12 Septiembre 6 p.m.
 
@@ -9,7 +12,6 @@ El proyecto está confirmado de los ejercicios y tareas que se van realizando en
 
 3º: Lunes 10 Octubre 9 a.m.
 
-## Entregables
 ### Para poder considerar completadas las semanas 1 y 2 de entrenamiento debe contemplar lo siguiente:
 - Crear un repositorio en GitHub 
 - Dockerfile ejecutable
