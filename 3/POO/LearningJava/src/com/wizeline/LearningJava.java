@@ -70,7 +70,7 @@ public class LearningJava {
         	String responseText = "";
         	/** Validates the type of http request  */
         	exchange.getRequestBody();
-            if ("POST".equals(exchange.getRequestMethod())) {
+            if ("GET".equals(exchange.getRequestMethod())) {
             	LOGGER.info("LearningJava - Procesando peticion HTTP de tipo GET");
             	UserDTO user =  new UserDTO();
             	user = user.getParameters(splitQuery(exchange.getRequestURI()));
