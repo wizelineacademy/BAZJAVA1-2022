@@ -1,61 +1,120 @@
-# :tv: Video y Presentacion
-- [TBD]
-- [TBD]
-- [TBD]
-
-# API de Fechas y Tiempos
-
-# :hammer_and_wrench:  Requisitos
-- Java 11
-- IDE
-    * [Visual Studio Code](https://code.visualstudio.com/download)
-    * [IntelliJ](https://www.jetbrains.com/idea/download)
-- [Postman](https://www.postman.com/downloads/)
-- [json-20220320.jar](https://repo1.maven.org/maven2/org/json/json/20220320/)
-
 # :pencil: Actividad
 ## Agregar usuarios usando concurrencia
 > Esta actividad continua a la descrita en la clase anterior: [README](https://github.com/wizelineacademy/BAZJAVA12022/blob/main/4/FechasTiempos/README.md)
-1. Agregar un nuevo paquete llamado _Exceptions_ dentro del paquete de _utils_. Dentro vamos a crear una nueva clase llamada _ExceptionGenerica.java_
+1. Agregar las siguientes variables globales dentro de nuestra clase principal para poder usarlas en nuestros threads.
     ```java
-    package com.wizeline.utils.exceptions;
-
-    public class ExcepcionGenerica extends RuntimeException {
-        public ExcepcionGenerica(String mensajeError) {
-            super(mensajeError);
-        }
-    }
+    private static String responseTextThread = "";
+    private ResponseDTO response;
+    private static String textThread = "";
     ``` 
-   
-2. En nuestro método de run() vamos a modificar nuestro catch que anteriormente habíamos usado para usar nuestra excepcion generica creada por nosotros, también vamos a 
-usar el _LOGGER_ para poder logear la información que obtengamos de nuestro error.
-   ```java
-        } catch (Exception e) {
-            LOGGER.severe(e.getMessage());
-            throw new ExcepcionGenerica(e.getMessage());
-        }
-    ```
-   
-3. Podemos probar estos nuevos cambios mandando 2 usuarios en lugar de tres en el request body.
-   ```java
-    SEVERE: JSONArray[2] not found.
-    Exception in thread "Thread-1" com.wizeline.utils.exceptions.ExcepcionGenerica: JSONArray[2] not found.
-    at com.wizeline.LearningJava.run(LearningJava.java:277)
-    ```
 
-4. También agregamos un catch en nuestro método de _/api/createUsers_
+2. Extendemos la clase Thread en la clase principal para poder usar la concurrencia.
+   ```java
+   public class LearningJava extends Thread {
+    ```
+3. Agregar un nuevo _endpoint_ que usaremos para poder agregar tres usuarios.
     ```java
-    try (Scanner scanner = new Scanner(exchange.getRequestBody())) {
-        while(scanner.hasNext()) {
-            text.append(scanner.next());
+        // Crear usuarios
+        server.createContext("/api/createUsers", (exchange -> {
+            LOGGER.info("LearningJava - Inicia procesamiento de peticion ...");
+            ResponseDTO response = new ResponseDTO();
+            /** Validates the type of http request  */
+            exchange.getRequestBody();
+            if ("POST".equals(exchange.getRequestMethod())) {
+                LOGGER.info("LearningJava - Procesando peticion HTTP de tipo POST");
+                // Obtenemos el request del body que mandamos
+                StringBuilder text = new StringBuilder();
+                try (Scanner scanner = new Scanner(exchange.getRequestBody())) {
+                    while(scanner.hasNext()) {
+                        text.append(scanner.next());
+                    }
+                }
+                textThread = text.toString();
+                LOGGER.info(textThread);
+                // Iniciamos thread
+                LearningJava thread = new LearningJava();
+                thread.start();
+                // Esperamos a que termine el thread
+                while(thread.isAlive());
+                exchange.getResponseHeaders().set("contentType", "application/json; charset=UTF-8");
+                exchange.sendResponseHeaders(200, responseTextThread.getBytes().length);
+            } else {
+                /** 405 Method Not Allowed */
+                exchange.sendResponseHeaders(405, -1);
+            }
+            OutputStream output = exchange.getResponseBody();
+            /**
+             * Always remember to close the resources you open.
+             * Avoid memory leaks
+             */
+            LOGGER.info("LearningJava - Cerrando recursos ...");
+            output.write(responseTextThread.getBytes());
+            output.flush();
+            output.close();
+            exchange.close();
+        }));
+    ```
+   > Lo podemos agregar después del endpoint de /api/createUser
+4. Agregamos un nuevo método llamado run, que viene de la clase Thread que extendimos.
+   ```java
+   public void run(){
+        try {
+            String user = "user";
+            String pass = "password";
+            JSONArray jsonArray = new JSONArray(textThread);
+            JSONObject user1 = new JSONObject(jsonArray.get(0).toString());
+            JSONObject user2 = new JSONObject(jsonArray.get(1).toString());
+            JSONObject user3 = new JSONObject(jsonArray.get(2).toString());
+            // Creamos usuario 1
+            response = createUser(user1.getString(user), user1.getString(pass));
+            responseTextThread = new JSONObject(response).toString();
+            LOGGER.info("Usuario 1: " + responseTextThread);
+            Thread.sleep(1000);
+            // Creamos usuario 2
+            response = createUser(user2.getString(user), user2.getString(pass));
+            responseTextThread = new JSONObject(response).toString();
+            LOGGER.info("Usuario 2: " + responseTextThread);
+            Thread.sleep(1000);
+
+            // Creamos usuario 3
+            response = createUser(user3.getString(user), user3.getString(pass));
+            responseTextThread = new JSONObject(response).toString();
+            LOGGER.info("Usuario 3: " + responseTextThread);
+        } catch (InterruptedException e) {
+            throw new RuntimeException(e);
         }
-    } catch (Exception e) {
-        LOGGER.severe(e.getMessage());
-        throw new ExcepcionGenerica("Fallo al obtener el request del body");
     }
     ```
+
+# :computer: Requests
+Usando postman vamos a usar el siguiente endpoint.
+``` bash
+http://localhost:8080/api/createUsers
+```
+Y en el apartardo de _Body_ vamos a agregar el siguiente _raw_ en _JSON_.
+```json
+[{
+  "user": "user1@wizeline.com",
+  "password": "pass1"
+},
+  {
+    "user": "user2@wizeline.com",
+    "password": "pass2"
+  },
+  {
+    "user": "user3@wizeline.com",
+    "password": "pass3"
+  }]
+```
+# :white_check_mark: 200 Response
+```json
+{
+  "code": "OK000",
+  "errors": {},
+  "status": "success"
+}
+```
 
 # :books: Recursos
-- [Java Excepciones personalizadas](https://www.baeldung.com/java-new-custom-exception)
-- [Introducción a las excepciones](http://www.it.uc3m.es/java/prog/resources/excepciones/index_es.html)
-- [Best (and Worst) Java Exception Handling Practices](https://able.bio/DavidLandup/best-and-worst-java-exception-handling-practices--18h55kh)
+- [Java Threads](https://www.geeksforgeeks.org/java-threads/)
+- [Creating Threads](https://www.w3schools.com/java/java_threads.asp)
