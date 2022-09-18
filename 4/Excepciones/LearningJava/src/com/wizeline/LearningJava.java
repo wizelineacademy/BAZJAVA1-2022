@@ -2,7 +2,6 @@ package com.wizeline;
 
 import java.io.IOException;
 import java.io.OutputStream;
-import java.io.UnsupportedEncodingException;
 import java.net.InetSocketAddress;
 import java.net.URI;
 import java.net.URLDecoder;
@@ -15,6 +14,7 @@ import java.util.Map;
 import java.util.Scanner;
 import java.util.logging.Logger;
 
+import com.wizeline.utils.exceptions.ExcepcionGenerica;
 import org.json.JSONArray;
 import org.json.JSONObject;
 
@@ -50,8 +50,9 @@ public class LearningJava extends Thread{
 		LOGGER.info("LearningJava - Iniciado servicio REST ...");
 		/** This class implements a simple HTTP server  */
 		HttpServer server = HttpServer.create(new InetSocketAddress(8080), 0);
+        String msgProcPeticion = "LearningJava - Inicia procesamiento de peticion ...";
         server.createContext("/api/login", (exchange -> {
-            LOGGER.info("LearningJava - Inicia procesamiento de peticion ...");
+            LOGGER.info(msgProcPeticion);
             ResponseDTO response = new ResponseDTO();
             String responseText = "";
             /** Validates the type of http request  */
@@ -80,7 +81,7 @@ public class LearningJava extends Thread{
             exchange.close();
         }));
         server.createContext("/api/createUser", (exchange -> {
-            LOGGER.info("LearningJava - Inicia procesamiento de peticion ...");
+            LOGGER.info(msgProcPeticion);
             ResponseDTO response = new ResponseDTO();
             String responseText = "";
             /** Validates the type of http request  */
@@ -112,7 +113,7 @@ public class LearningJava extends Thread{
 
         // Crear usuarios
         server.createContext("/api/createUsers", (exchange -> {
-            LOGGER.info("LearningJava - Inicia procesamiento de peticion ...");
+            LOGGER.info(msgProcPeticion);
             ResponseDTO response = new ResponseDTO();
             /** Validates the type of http request  */
             exchange.getRequestBody();
@@ -124,6 +125,9 @@ public class LearningJava extends Thread{
                     while(scanner.hasNext()) {
                         text.append(scanner.next());
                     }
+                } catch (Exception e) {
+                    LOGGER.severe(e.getMessage());
+                    throw new ExcepcionGenerica("Fallo al obtener el request del body");
                 }
                 textThread = text.toString();
 
@@ -153,7 +157,7 @@ public class LearningJava extends Thread{
 
         // Consultar información de cuenta de un usuario
         server.createContext("/api/getUserAccount", (exchange -> {
-            LOGGER.info("LearningJava - Inicia procesamiento de peticion ...");
+            LOGGER.info(msgProcPeticion);
             Instant inicioDeEjecucion = Instant.now();
             ResponseDTO response = new ResponseDTO();
 
@@ -208,7 +212,7 @@ public class LearningJava extends Thread{
 
         // Consultar información de todas las cuentas
 		server.createContext("/api/getAccounts", (exchange -> {
-			LOGGER.info("LearningJava - Inicia procesamiento de peticion ...");
+			LOGGER.info(msgProcPeticion);
 			Instant inicioDeEjecucion = Instant.now();
 			BankAccountBO bankAccountBO = new BankAccountBOImpl();
 			String responseText = "";
@@ -267,8 +271,9 @@ public class LearningJava extends Thread{
             response = createUser(user3.getString(user), user3.getString(pass));
             responseTextThread = new JSONObject(response).toString();
             LOGGER.info("Usuario 3: " + responseTextThread);
-        } catch (InterruptedException e) {
-            throw new RuntimeException(e);
+        } catch (Exception e) {
+            LOGGER.severe(e.getMessage());
+            throw new ExcepcionGenerica(e.getMessage());
         }
     }
 
