@@ -2,6 +2,7 @@ package com.wizeline;
 
 import java.io.IOException;
 import java.io.OutputStream;
+import java.lang.annotation.Documented;
 import java.net.InetSocketAddress;
 import java.net.URI;
 import java.net.URLDecoder;
@@ -33,7 +34,7 @@ import static com.wizeline.utils.Utils.isPasswordValid;
 /**
  * @author Wizeline
  */
-public class LearningJava extends Thread{
+public class LearningJava extends Thread {
 
 	private static final Logger LOGGER = Logger.getLogger(LearningJava.class.getName());
 	private static final String SUCCESS_CODE = "OK000";
@@ -252,7 +253,40 @@ public class LearningJava extends Thread{
         LOGGER.info("LearningJava - Server started on port 8080");
     }
 
+    @Override
     public void run(){
+        try {
+            crearUsuarios();
+        } catch (Exception e) {
+            LOGGER.severe(e.getMessage());
+            throw new ExcepcionGenerica(e.getMessage());
+        }
+    }
+
+    private void crearUsuarios() {
+        try {
+            String user = "user";
+            String pass = "password";
+            JSONArray jsonArray = new JSONArray(textThread);
+            JSONObject userJson;
+
+            ResponseDTO response = null;
+
+            LOGGER.info("jsonArray.length(): " + jsonArray.length());
+            for(int i = 0; i < jsonArray.length(); i++) {
+                userJson = new JSONObject(jsonArray.get(i).toString());
+                response = createUser(userJson.getString(user), userJson.getString(pass));
+                responseTextThread = new JSONObject(response).toString();
+                LOGGER.info("Usuario " + (i+1) + ": " + responseTextThread);
+                Thread.sleep(1000);
+            }
+        } catch (InterruptedException e) {
+            throw new RuntimeException(e);
+        }
+    }
+
+    @Deprecated(since = "Anotaciones update")
+    private void createUsers() {
         try {
             String user = "user";
             String pass = "password";
@@ -274,9 +308,8 @@ public class LearningJava extends Thread{
             response = createUser(user3.getString(user), user3.getString(pass));
             responseTextThread = new JSONObject(response).toString();
             LOGGER.info("Usuario 3: " + responseTextThread);
-        } catch (Exception e) {
-            LOGGER.severe(e.getMessage());
-            throw new ExcepcionGenerica(e.getMessage());
+        } catch (InterruptedException e) {
+            throw new RuntimeException(e);
         }
     }
 

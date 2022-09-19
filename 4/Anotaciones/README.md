@@ -14,48 +14,111 @@
 - [json-20220320.jar](https://repo1.maven.org/maven2/org/json/json/20220320/)
 
 # :pencil: Actividad
-## Agregar usuarios usando concurrencia
+## Actualizar método para agregar usuarios
 > Esta actividad continua a la descrita en la clase anterior: [README](https://github.com/wizelineacademy/BAZJAVA12022/blob/main/4/FechasTiempos/README.md)
-1. Agregar un nuevo paquete llamado _Exceptions_ dentro del paquete de _utils_. Dentro vamos a crear una nueva clase llamada _ExceptionGenerica.java_
+1. Primero vamos a agregar la anotación de Override a nuestro método de concurrencia _run()_
     ```java
-    package com.wizeline.utils.exceptions;
+    @Override
+    public void run(){
+        try {
+    ``` 
+    > Esto evitará que llegaramos a tener algún problema respecto a que no llegara a correr el método.
 
-    public class ExcepcionGenerica extends RuntimeException {
-        public ExcepcionGenerica(String mensajeError) {
-            super(mensajeError);
+2. En nuestro método de run() vamos a mover todo lo que esté dentro de nuestro _try_ a algún método que creemos. Y le agregaremos la anotación de *@Deprecated*
+   ```java
+    @Deprecated(since = "Anotaciones update")
+    private void createUsers() {
+        try {
+            String user = "user";
+            String pass = "password";
+            JSONArray jsonArray = new JSONArray(textThread);
+            JSONObject user1 = new JSONObject(jsonArray.get(0).toString());
+            JSONObject user2 = new JSONObject(jsonArray.get(1).toString());
+            JSONObject user3 = new JSONObject(jsonArray.get(2).toString());
+
+            ResponseDTO response = createUser(user1.getString(user), user1.getString(pass));
+            responseTextThread = new JSONObject(response).toString();
+            LOGGER.info("Usuario 1: " + responseTextThread);
+            Thread.sleep(1000);
+
+            response = createUser(user2.getString(user), user2.getString(pass));
+            responseTextThread = new JSONObject(response).toString();
+            LOGGER.info("Usuario 2: " + responseTextThread);
+            Thread.sleep(1000);
+
+            response = createUser(user3.getString(user), user3.getString(pass));
+            responseTextThread = new JSONObject(response).toString();
+            LOGGER.info("Usuario 3: " + responseTextThread);
+        } catch (InterruptedException e) {
+            throw new RuntimeException(e);
         }
     }
-    ``` 
+    ```
+   > El _since_ dentro de _@Deprecated_ se usa para anotar desde cuando se volvió obsoleto este método.
 
-2. En nuestro método de run() vamos a modificar nuestro catch que anteriormente habíamos usado para usar nuestra excepcion generica creada por nosotros, también vamos a
-   usar el _LOGGER_ para poder logear la información que obtengamos de nuestro error.
+3. Crearemos un nuevo método llamado _crearUsuarios()_ donde pondremos la nueva lógica para poder agregar usuarios. Este nuevo método aceptará cualquier número de usuarios que pongamos en el request. 
    ```java
+    @Override
+    public void run(){
+        try {
+            crearUsuarios();
         } catch (Exception e) {
             LOGGER.severe(e.getMessage());
             throw new ExcepcionGenerica(e.getMessage());
         }
-    ```
-
-3. Podemos probar estos nuevos cambios mandando 2 usuarios en lugar de tres en el request body.
-   ```java
-    SEVERE: JSONArray[2] not found.
-    Exception in thread "Thread-1" com.wizeline.utils.exceptions.ExcepcionGenerica: JSONArray[2] not found.
-    at com.wizeline.LearningJava.run(LearningJava.java:277)
-    ```
-
-4. También agregamos un catch en nuestro método de _/api/createUsers_
-    ```java
-    try (Scanner scanner = new Scanner(exchange.getRequestBody())) {
-        while(scanner.hasNext()) {
-            text.append(scanner.next());
-        }
-    } catch (Exception e) {
-        LOGGER.severe(e.getMessage());
-        throw new ExcepcionGenerica("Fallo al obtener el request del body");
     }
     ```
 
+4. Y el nuevo método de crearUsuarios quedaría de la siguiente forma.
+    ```java
+    private void crearUsuarios() {
+        try {
+            String user = "user";
+            String pass = "password";
+            JSONArray jsonArray = new JSONArray(textThread);
+            JSONObject userJson;
+
+            ResponseDTO response = null;
+
+            LOGGER.info("jsonArray.length(): " + jsonArray.length());
+            for(int i = 0; i < jsonArray.length(); i++) {
+                userJson = new JSONObject(jsonArray.get(i).toString());
+                response = createUser(userJson.getString(user), userJson.getString(pass));
+                responseTextThread = new JSONObject(response).toString();
+                LOGGER.info("Usuario " + (i+1) + ": " + responseTextThread);
+                Thread.sleep(1000);
+            }
+        } catch (InterruptedException e) {
+            throw new RuntimeException(e);
+        }
+    }
+    ```
+# :computer: Requests
+Usando postman vamos a usar el siguiente endpoint.
+``` bash
+http://localhost:8080/api/createUsers
+```
+Y en el apartardo de _Body_ vamos a agregar el siguiente _raw_ en _JSON_.
+```json
+[{
+  "user": "user1@wizeline.com",
+  "password": "pass1"
+},
+  {
+    "user": "user2@wizeline.com",
+    "password": "pass2"
+  }]
+```
+# :white_check_mark: 200 Response
+```json
+{
+  "code": "OK000",
+  "errors": {},
+  "status": "success"
+}
+```
+
 # :books: Recursos
-- [Java Excepciones personalizadas](https://www.baeldung.com/java-new-custom-exception)
-- [Introducción a las excepciones](http://www.it.uc3m.es/java/prog/resources/excepciones/index_es.html)
-- [Best (and Worst) Java Exception Handling Practices](https://able.bio/DavidLandup/best-and-worst-java-exception-handling-practices--18h55kh)
+- [Anotaciones en JAVA](https://javadesdecero.es/avanzado/anotaciones-annotations/)
+- [Java Annotations](https://jenkov.com/tutorials/java/annotations.html)
+- [¿Cuál es la función de las anotaciones en Java?](https://es.stackoverflow.com/questions/79397/cu%C3%A1l-es-la-funci%C3%B3n-de-las-anotaciones-en-java)
