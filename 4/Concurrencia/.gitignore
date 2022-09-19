@@ -26,3 +26,4 @@ replay_pid*
 #Others
 .classpath
 .project
+*file.txt
