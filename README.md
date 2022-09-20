@@ -55,7 +55,8 @@ Los temas estan divididos en 6 semanas, 3 sesiones por semana.
    2. [Programación Concurrente](4/Concurrencia/README.md)
    3. [Excepciones](4/Excepciones/README.md)
    4. [Anotaciones](4/Anotaciones/README.md)
-   5. [Beans](4/Beans/README.md)
+   5. [Programación Funcional](4/Funcional/README.md)
+   6. [Patrones de Diseño](4/PatronesDiseno/README.md)
 
 ### Semana 5 - Spring Boot
    1. [Configuracion Inicial](5/Configuracion/README.md)
