@@ -15,7 +15,7 @@
 
 # :pencil: Actividad
 ## Agregar usuarios usando concurrencia
-> Esta actividad continua a la descrita en la clase anterior: [README](https://github.com/wizelineacademy/BAZJAVA12022/blob/main/4/FechasTiempos/README.md)
+> Esta actividad continua a la descrita en la clase anterior: [README](https://github.com/wizelineacademy/BAZJAVA12022/tree/main/4/Concurrencia#readme)
 1. Agregar un nuevo paquete llamado _Exceptions_ dentro del paquete de _utils_. Dentro vamos a crear una nueva clase llamada _ExceptionGenerica.java_
     ```java
     package com.wizeline.utils.exceptions;
