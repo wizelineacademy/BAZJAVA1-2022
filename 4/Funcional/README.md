@@ -124,7 +124,7 @@
 
 Usando postman vamos a usar el siguiente endpoint.
 ``` bash
-curl --location --request GET 'http://localhost:8080/api/getAccountsGroupByType
+curl --location --request GET 'http://localhost:8080/api/getAccountsGroupByType'
 ```
 Si todo sale bien obtendremos la siguiente respuesta del endpoint:
 
