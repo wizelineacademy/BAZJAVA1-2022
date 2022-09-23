@@ -1,127 +1,49 @@
-# Spring Boot
-Recursos y pasos importantes para el curso
+package com.wizeline.maven.learningjava;
 
-# :computer:  Actividades
+import java.io.IOException;
+import java.io.OutputStream;
+import java.net.InetSocketAddress;
+import java.net.URI;
+import java.net.URLDecoder;
+import java.nio.charset.StandardCharsets;
+import java.time.Duration;
+import java.time.Instant;
+import java.util.LinkedHashMap;
+import java.util.List;
+import java.util.Map;
+import java.util.Scanner;
+import java.util.function.Function;
+import java.util.logging.Logger;
+import java.util.stream.Collectors;
 
-## Pre-requisitos de la sesión en vivo :exclamation:
+import org.json.JSONArray;
+import org.json.JSONObject;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import static com.wizeline.maven.learningjava.utils.Utils.isDateFormatValid;
+import static com.wizeline.maven.learningjava.utils.Utils.isPasswordValid;
 
-Para realizar este curso es importante tener instalado los siguientes programas::
-* [JDK 11](https://www.oracle.com/java/technologies/downloads/)
-* [Intellij Idea Community](https://www.jetbrains.com/idea/download/#section=windows)
-* [Maven](https://maven.apache.org/download.cgi)
+import com.fasterxml.jackson.databind.ObjectMapper;
+import com.sun.net.httpserver.HttpServer;
+import com.wizeline.maven.learningjava.model.BankAccountDTO;
+import com.wizeline.maven.learningjava.model.ResponseDTO;
+import com.wizeline.maven.learningjava.model.UserDTO;
+import com.wizeline.maven.learningjava.service.BankAccountService;
+import com.wizeline.maven.learningjava.service.BankAccountServiceImpl;
+import com.wizeline.maven.learningjava.service.UserService;
+import com.wizeline.maven.learningjava.service.UserServiceImpl;
+import com.wizeline.maven.learningjava.utils.exceptions.ExcepcionGenerica;
 
-## Java línea de comando
-Una vez que JDK y MAVEN sean instalados y configurados, procederemos a validar que este bien instalado para comenzar con la actividad.
-
-### PASO 1: Validar entorno
-Abrimos una terminal y validamos si reconoce nuestra versión de Java:
-
-``` bash
-# Iniciamos validando que nuestra consola reconosca la versión de Java
-
-jonathan.torres@Jonathans-MacBook-Pro LearningJava1.2 % java -version
-java version "11.0.15" 2022-04-19 LTS
-Java(TM) SE Runtime Environment 18.9 (build 11.0.15+8-LTS-149)
-Java HotSpot(TM) 64-Bit Server VM 18.9 (build 11.0.15+8-LTS-149, mixed mode)
-
-```
-
-Ahora desde una terminal y validamos si reconoce nuestra versión de Maven:
-
-``` bash
-# Iniciamos validando que nuestra consola reconosca la versión de Java
-
-jonathan.torres@Jonathans-MacBook-Pro BAZJAVA12022 % mvn -version
-Apache Maven 3.8.5 (3599d3414f046de2324203b78ddcf9b5e4388aa0)
-Maven home: /Users/jonathan.torres/Open/apache-maven-3.8.5
-Java version: 11.0.15, vendor: Oracle Corporation, runtime: /Library/Java/JavaVirtualMachines/jdk-11.0.15.jdk/Contents/Home
-Default locale: en_MX, platform encoding: UTF-8
-OS name: "mac os x", version: "12.3.1", arch: "x86_64", family: "mac"
-jonathan.torres@Jonathans-MacBook-Pro BAZJAVA12022 % 
-```
-
-
-## Temario Día 1
-
-### Spring Initializr
-
-Creación de proyecto
-
-### Active Profiles (Properties files)
-
-Definición e implementación de herencia.
-
-### Manejador de Dependencias (Gradle vs Maven)
-
-Función e implementación de métodos sobrecargados.
-
-### Estructura de un proyecto
-
-Función e implementación de constructores sobrecargados.
-
-
-## Practica
-La practica y ejercicios las podemos encontrar en el directorio de learningjava
-
-### A continuación, se listaran los pasos para a seguir para la actividad de este módulo.
-
-1 . Comenzamos creando un proyecto Spring Boot de tipo Maven, con Java 11 y versión 2.7.3. Para ello lo haremos desde el portal de [Spring Initializr](https://start.spring.io/)
-
-![Alt text](./Images/1.SpringInitializr.png "Creación de Proyecto")
-
-
-2. Desde IntelliJ importamos el proyecto maven.
-
-![Alt text](./Images/2.ImportProject.png "Importamos el proyecto en nuestro IDE")
-
-
-3. Ahora contamos con Maven para construir nuestro proyecto, por lo que debemos de agregar las librerias necesarias a nuestro archivo pom.xml:
-
-``` bash
-		<dependency>
-			<groupId>org.json</groupId>
-			<artifactId>json</artifactId>
-			<version>20220320</version>
-		</dependency>
-
-		<dependency>
-			<groupId>com.fasterxml.jackson.core</groupId>
-			<artifactId>jackson-databind</artifactId>
-			<version>2.13.3</version>
-		</dependency>
-```
-
-4. Ahora vamos a crear en nuestra carpeta src los siguientes paquetes:
-  - com.wizeline.service (Este paquete sustituye al paquete BO)
-  - com.wizeline.repository (Este paquete sustituye al paquete DAO)
-  - com.wizeline.model (Este paquete sustituye al paquete DTO)
-  - com.wizeline.enum
-  - com.wizeline.utils
-  - com.wizeline.utils.exceptions
-
-![Alt text](./Images/3.Packages.png "Creación de Paquetes")
-
-
-5. Comenzaremos a migrar nuestro proyecto LearningJava con el que hemos trabajado a lo largo del curso Java:
-  
-![Alt text](./Images/4.Classes.png "Creación de UserDTO.java")
-
-
-6. Al mover las clases puede que se presenten errores en los nombres de los package, debemos de realizar la correción y nuestro proyecto debe de iniciar correctamente:
-
-7. Ahora debemos mover nuestras funciones del metodo main a la clase LearningJavaApplication:
-
-``` bash
 @SpringBootApplication
-public class LearningjavamavenApplication extends Thread {
+public class LearningJavaApplication extends Thread {
 
-	private static final Logger LOGGER = Logger.getLogger(LearningjavamavenApplication.class.getName());
+	private static final Logger LOGGER = Logger.getLogger(LearningJavaApplication.class.getName());
 	private static final String SUCCESS_CODE = "OK000";
 	private static String responseTextThread = "";
 	private static String textThread = "";
 
 	public static void main(String[] args) throws IOException {
-		SpringApplication.run(LearningjavamavenApplication.class, args);
+		SpringApplication.run(LearningJavaApplication.class, args);
 
 		LOGGER.info("LearningJava - Iniciado servicio REST ...");
 		/** This class implements a simple HTTP server  */
@@ -167,7 +89,7 @@ public class LearningjavamavenApplication extends Thread {
 			/** Validates the type of http request  */
 			exchange.getRequestBody();
 			if ("POST".equals(exchange.getRequestMethod())) {
-				
+
 				StringBuilder text = new StringBuilder();
 				try (Scanner scanner = new Scanner(exchange.getRequestBody())) {
 					while(scanner.hasNext()) {
@@ -178,10 +100,10 @@ public class LearningjavamavenApplication extends Thread {
 					throw new ExcepcionGenerica("Fallo al obtener el request del body");
 				}
 				LOGGER.info("LearningJava - Procesando peticion HTTP de tipo POST - Create user");
-				
+
 				ObjectMapper objectMapper = new ObjectMapper();
-				UserDTO user = objectMapper.readValue(text.toString(), UserDTO.class);	
-				
+				UserDTO user = objectMapper.readValue(text.toString(), UserDTO.class);
+
 				response = createUser(user.getUser(), user.getPassword());
 				JSONObject json = new JSONObject(response);
 				responseText = json.toString();
@@ -224,7 +146,7 @@ public class LearningjavamavenApplication extends Thread {
 				textThread = text.toString();
 
 				LOGGER.info(textThread);
-				LearningjavamavenApplication thread = new LearningjavamavenApplication();
+				LearningJavaApplication thread = new LearningJavaApplication();
 				thread.start();
 
 				while(thread.isAlive());
@@ -379,6 +301,9 @@ public class LearningjavamavenApplication extends Thread {
 		server.start();
 		LOGGER.info("LearningJava - Server started on port 8080");
 
+
+
+
 	}
 
 	@Override
@@ -469,21 +394,3 @@ public class LearningjavamavenApplication extends Thread {
 	}
 
 }
-```
-
-
-8. A continuación, ejecutemos el proyecto y hagamos una prueba con los siguientes request:
-
-![Alt text](./Images/5.RunProject.png "Started LearningjavamavenApplication")
-
-* [LearningJavaSpring.postman_collection.json](./Postman/LearningJavaSpring.postman_collection.json)
-
-
-
-
-# :books: Para aprender mas
-* [Spring Initializr](https://start.spring.io/)
-* [Spring Boot](https://docs.spring.io/spring-boot/docs/current/reference/htmlsingle/)
-* [Spring REST](https://spring.io/projects/spring-restdocs)
-* [Spring MVC](https://spring.io/guides/gs/serving-web-content/)
-* [Maven Repository](https://mvnrepository.com/)
