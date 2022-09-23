@@ -474,7 +474,7 @@ public class LearningjavamavenApplication extends Thread {
 
 8. A continuación, ejecutemos el proyecto y hagamos una prueba con los siguientes request:
 
-![Alt text](./Images/5.RunProject.pngg "Creación de UserDTO.java")
+![Alt text](./Images/5.RunProject.png "Started LearningjavamavenApplication")
 
 * [LearningJavaSpring.postman_collection.json](./Postman/LearningJavaSpring.postman_collection.json)
 
