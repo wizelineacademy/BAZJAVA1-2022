@@ -46,7 +46,7 @@ Aquí encontrarás todas las grabaciones y presentaciones una vez finalizada cad
 - [Jueves 22 Sep/Java IX](https://drive.google.com/file/d/1YUK2ywFjnYR24BYMKlajvPteyKBAFjTc/view?usp=sharing)
 - 📺 [Grabacion Jueves 22 Sep]
 - [Viernes 23 Sep/Java X]
-- 📺 [Viernes 23 Sep]
+- 📺 [Viernes 23 Sep](https://drive.google.com/file/d/1Pd_mKSqhxWo5Adl2TgbeFWH60X5GFOd-/view?usp=sharing)
 
 # Semana 5
 - [Lunes 26 Sep/Spring Boot I]
