@@ -63,7 +63,7 @@ El proyecto está confirmado de los ejercicios y tareas que se van realizando en
   - Java
 
 ### Para poder considerar completadas las semanas 3 y 4 de entrenamiento debe contemplar lo siguiente:
-- Proyecto en Java 11 ejecutable por línea de comandos y desplegable en el contenedor creado en el primer entregable
+- Proyecto en Java 11 ejecutable por línea de comandos
 - Herencia en una de sus clases
 - Sobrecarga de al menos uno de los métodos de alguna clase
 - Sobrecarga de al menos uno de los constructores de alguna clase
@@ -77,16 +77,17 @@ El proyecto está confirmado de los ejercicios y tareas que se van realizando en
 - Implementación de concurrencia arrancando por lo menos tres hilos y utilizando su ejecución
 - Uso de por lo menos una excepción de creación propia
 - Uso de al menos tres anotaciones
-- Uso de por lo menos dos beans
+- Uso de por lo menos 1 Interfaz Funcional
+- Uso de por lo menos 1 función Lambda y asignada a una Interfaz Funcional
+- Uso de por lo menos 1 Stream de datos
+- Uso de por lo menos 2 operaciones intermedias y 2 tipos de colectores   
 - Uso de por lo menos dos patrones de diseño creacionales
-
 
 ### Criterio de Evaluación
 
 | **Tópico**                                                                                  | **Puntaje** |
 |---------------------------------------------------------------------------------------------|-------------|
 | Usar Java 11 como versión del proyecto                                                      | 5           |
-| Dockerfile desplegando en el contenedor                                                     | 10          |
 | Herencia en una de sus clases                                                               | 5           |
 | Sobrecarga de al menos uno de los métodos de alguna clase                                   | 5           |
 | Sobrecarga de al menos uno de los constructores de alguna clase                             | 5           |
@@ -104,10 +105,13 @@ El proyecto está confirmado de los ejercicios y tareas que se van realizando en
 | Implementación de concurrencia arrancando por lo menos tres hilos y utilizando su ejecución | 20          |
 | Uso de por lo menos una excepción de creación propia                                        | 20          |
 | Uso de al menos tres anotaciones                                                            | 5           |
-| Uso de por lo menos dos beans                                                               | 5           |
-| Uso de por lo menos dos patrones de diseño creacionales                                     | 20          |
-| **Total**                                                                                   | **170**     |
-| **Mínimo aprobatorio**                                                                      | **120**     |
+| Uso de por lo menos 1 Interfaz Funcional                                                    | 10          |
+| Uso de por lo menos 1 función Lambda y asignada a una Interfaz Funcional                    | 10          |
+| Uso de por lo menos 1 Stream de datos                                                       | 5           |
+| Uso de por lo menos 2 operaciones intermedias y 2 tipos de colectores                       | 10          |
+| Uso de por lo menos dos patrones de diseño creacionales                                     | 30          |
+| **Total**                                                                                   | **200**     |
+| **Mínimo aprobatorio**                                                                      | **160**     |
 
 
 ## Entregable 3
@@ -115,8 +119,8 @@ El proyecto está confirmado de los ejercicios y tareas que se van realizando en
 - **Objetivo** 
 
 - **Temas relacionados**: Semana 5 y 6
-  - Java
-  - Pruebas unitarias
+  - Spring Boot
+  - JUnit
 
 ### Para poder considerar completadas las semanas 5 y 6 de entrenamiento debe contemplar lo siguiente:
 - Proyecto generado por Spring Initializr y desplegable en el contenedor creado en el primer entregable
