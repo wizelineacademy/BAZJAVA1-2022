@@ -1,0 +1,12 @@
+
+_
+java:S1192&"IDefine a constant instead of duplicating this literal "file.txt" 3 times.(ÓÂçª
+’
+java:S1192"pDefine a constant instead of duplicating this literal "Inicia procesamiento en capa de acceso de datos" 3 times.(è£Å»ûÿÿÿÿ8‰Ï’´·0
+^
+java:S1192"HDefine a constant instead of duplicating this literal "success" 5 times.(ùØ
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(§ÛÄ¿øÿÿÿÿ
+b
+java:S2095K"LUse try-with-resources or close this "BufferedReader" in a "finally" clause.(şƒŒÂ
+g
+java:S2095;"LUse try-with-resources or close this "BufferedWriter" in a "finally" clause.(±íîğşÿÿÿÿ

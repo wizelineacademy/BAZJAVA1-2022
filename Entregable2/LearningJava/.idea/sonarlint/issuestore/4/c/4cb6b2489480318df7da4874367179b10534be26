@@ -1,0 +1,72 @@
+
+a	java:S112ë"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ
+a	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ
+q
+java:S3008%"VRename this field "SUCCES_CODE" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(±‚ı´ùÿÿÿÿ
+h
+java:S3776*"RRefactor this method to reduce its Cognitive Complexity from 42 to the 15 allowed.(œû¿Ø
+H
+java:S14812"-Remove this unused "response" local variable.(ñ™—íÿÿÿÿÿ
+7
+java:S2129Ì" Remove this "String" constructor(éï¼
+L
+java:S1611ç"5Remove the parentheses around the "account" parameter(Ï•ˆï
+<
+java:S2129û" Remove this "String" constructor(£ÊÔşÿÿÿÿ
+I
+java:S1481‰"-Remove this unused "response" local variable.(ñ™—íÿÿÿÿÿ
+7
+java:S2129¥" Remove this "String" constructor(½×²¤
+o
+java:S2139Í"XEither log this exception and handle it, or rethrow it with some contextual information.(”ı¾
+L
+java:S1133Ô"5Do not forget to remove this deprecated code someday.(ÓßÄ
+?
+java:S1123Ô"(Add the missing @deprecated Javadoc tag.(ÓßÄ
+u
+java:S2142ê"^Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.(ä ¹€
+S
+java:S1117İ"<Rename "response" which hides the field declared at line 39.(Û¢ØÔ
+R
+java:S2696Ş"6Make the enclosing method "static" or remove this set.(šäşúÿÿÿÿ
+R
+java:S2696ã"6Make the enclosing method "static" or remove this set.(šäşúÿÿÿÿ
+R
+java:S2696è"6Make the enclosing method "static" or remove this set.(šäşúÿÿÿÿ
+u
+java:S2142€"^Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.(ä ¹€
+X
+java:S1117ö"<Rename "response" which hides the field declared at line 39.(à™Æÿıÿÿÿÿ
+R
+java:S2696ü"6Make the enclosing method "static" or remove this set.(šäşúÿÿÿÿ
+G
+java:S1068'",Remove this unused "response" private field.(ˆ¬³Íûÿÿÿÿ
+
+java:S1192-"tDefine a constant instead of duplicating this literal "LearningJava - Inicia procesamiento de peticion ..." 5 times.(ŠÌ©Öşÿÿÿÿ
+Š
+java:S1192l"tDefine a constant instead of duplicating this literal "LearningJava - Procesando peticion HTTP de tipo GET" 4 times.(¯Åîì
+g
+java:S1192S"LDefine a constant instead of duplicating this literal "contentType" 3 times.(Ñ†ÔÄùÿÿÿÿ
+€
+java:S1192^"eDefine a constant instead of duplicating this literal "LearningJava - Cerrando recursos ..." 6 times.(ğ†£õşÿÿÿÿ
+g
+java:S1192À"QDefine a constant instead of duplicating this literal "application/json" 3 times.(€·Ål
+c
+java:S1192À"MDefine a constant instead of duplicating this literal "Content-type" 3 times.(€·Ål
+m
+java:S1192Í"VDefine a constant instead of duplicating this literal "Tiempo de respuesta: " 3 times.(¨©¡İ
+{
+java:S1192S"`Define a constant instead of duplicating this literal "application/json; charset=UTF-8" 3 times.(Ñ†ÔÄùÿÿÿÿ
+g	java:S117µ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(òœíÈ
+S
+java:S2629ß"7Use the built-in formatting to construct this argument.(Öµç¦øÿÿÿÿ
+N
+java:S2629ä"7Use the built-in formatting to construct this argument.(àº±å
+N
+java:S2629é"7Use the built-in formatting to construct this argument.(±òşÅ
+x
+java:S2629ø"\Invoke method(s) only conditionally. Use the built-in formatting to construct this argument.(‚¬¾ûÿÿÿÿ
+M
+java:S2629ı"7Use the built-in formatting to construct this argument.(ú¡õU
+K
+java:S1191"5Use classes from the Java API instead of Sun classes.( üà

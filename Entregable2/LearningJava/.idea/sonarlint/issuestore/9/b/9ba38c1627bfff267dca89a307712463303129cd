@@ -1,0 +1,10 @@
+
+£
+java:S1186!"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(û˜ıçûÿÿÿÿ8ÖÒ¸·0
+U
+java:S11179"8Rename "user" which hides the field declared at line 27.(üÒ“«8ÕÈš¸·0
+y
+java:S14889"\Immediately return this expression instead of assigning it to the temporary variable "user".(üÒ“«8Îîš¸·0
+.
+java:S1700"Rename field "user"(‡ÏÇ³øÿÿÿÿ
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ĞååËÿÿÿÿÿ
