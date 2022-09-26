@@ -133,17 +133,6 @@ public class BankingAccountController {
     }
 
 
-    @DeleteMapping("/deleteAccounts")
-    public ResponseEntity<String> deleteAccounts() {
-        LOGGER.info(msgProcPeticion);
-        LOGGER.info("LearningJava - Procesando peticion HTTP de tipo GET");
-        List<BankAccountDTO> accounts = bankAccountService.getAccounts();
-        bankAccountService.deleteAccounts(accounts);
-
-        return new ResponseEntity<>("Accounts deleted", HttpStatus.OK);
-    }
-
-
     private BankAccountDTO getAccountDetails(String user, String lastUsage) {
         return bankAccountService.getAccountDetails(user, lastUsage);
     }

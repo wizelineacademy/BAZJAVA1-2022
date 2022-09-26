@@ -13,12 +13,10 @@ import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
 import java.util.List;
 
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import com.wizeline.maven.learningjava.enums.Country;
 import com.wizeline.maven.learningjava.model.BankAccountDTO;
-import com.wizeline.maven.learningjava.repository.BankAccountRepository;
 
 /**
  * Class Description goes here.
@@ -28,9 +26,6 @@ import com.wizeline.maven.learningjava.repository.BankAccountRepository;
 @Service
 public class BankAccountServiceImpl implements BankAccountService {
 
-    @Autowired
-    BankAccountRepository bankAccountRepository;
-
     @Override
     public List<BankAccountDTO> getAccounts() {
         // Definicion de lista con la informacion de las cuentas existentes.
@@ -38,14 +33,10 @@ public class BankAccountServiceImpl implements BankAccountService {
         accountDTOList.add(buildBankAccount("user3@wizeline.com", true, Country.MX, LocalDateTime.now().minusDays(7)));
         accountDTOList.add(buildBankAccount("user1@wizeline.com", false, Country.FR, LocalDateTime.now().minusMonths(2)));
         accountDTOList.add(buildBankAccount("user2@wizeline.com" ,false, Country.US, LocalDateTime.now().minusYears(4)));
-        bankAccountRepository.saveAll(accountDTOList);
-        return (List<BankAccountDTO>) bankAccountRepository.findAll();
+
+        return accountDTOList;
     }
 
-    @Override
-    public void deleteAccounts(List<BankAccountDTO> bankAccountDtoList) {
-        bankAccountRepository.deleteAll();
-    }
 
     @Override
     public BankAccountDTO getAccountDetails(String user, String lastUsage) {
