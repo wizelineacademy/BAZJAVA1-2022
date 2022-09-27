@@ -69,10 +69,10 @@ La practica y ejercicios las podemos encontrar en el directorio de learningjava
 LearningJavaApplication.Java
 
 ``` bash
-		@Bean
-    public static UserService userService() {
-        return new UserServiceImpl();
-    }
+@Bean
+public static UserService userService() {
+    return new UserServiceImpl();
+}
 ```
 
 4. Asimismo vamos a crear una clase llamada EndpointBean que se encuentre dentro de un nuevo paquete com.wizeline.maven.learningjava.config
@@ -187,8 +187,8 @@ consumers:
 6. Definamos el Autowiring en LearningJavaApplication.java
 
 ``` bash
-	@Autowired
-	private EndpointBean endpointBean;
+@Autowired
+private EndpointBean endpointBean;
 ```
 
 7. Al final nuestro LearningJavaApplication.java debe lucir de la siguiente forma:
@@ -206,9 +206,9 @@ public class LearningJavaApplication extends Thread {
 	private EndpointBean endpointBean;
 
 	@Bean
-    public static UserService userService() {
-        return new UserServiceImpl();
-    }
+   	public static UserService userService() {
+        	return new UserServiceImpl();
+    	}
 
 
 
@@ -562,7 +562,6 @@ public class LearningJavaApplication extends Thread {
 
 }
 ```
-
 
 8. A continuación, ejecutemos el proyecto y hagamos una prueba con los siguientes request:
 
