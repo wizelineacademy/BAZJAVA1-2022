@@ -1,4 +1,4 @@
-# Spring Boot
+# Spring Boot - Anotaciones
 Recursos y pasos importantes para el curso
 
 # :computer:  Actividades
