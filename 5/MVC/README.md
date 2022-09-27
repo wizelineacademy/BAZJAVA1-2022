@@ -146,7 +146,7 @@ La practica consiste crear el resto de Endpoint comentados en el archivo Learnin
 
 
 
-* [LearningJavaSpring.postman_collection.json](./Postman/LearningJavaSpring.postman_collection.json)
+* [LearningJavaSpring.postman_collection.json](./Postman/LearningJava.postman_collection.json)
 
 
 # :books: Para aprender mas

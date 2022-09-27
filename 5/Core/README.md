@@ -453,7 +453,7 @@ public class LearningJavaApplication extends Thread {
 6. A continuación, ejecutemos el proyecto y hagamos una prueba con los siguientes request:
 
 
-* [LearningJavaSpring.postman_collection.json](./Postman/LearningJavaSpring.postman_collection.json)
+* [LearningJavaSpring.postman_collection.json](./Postman/LearningJava.postman_collection.json)
 
 
 
