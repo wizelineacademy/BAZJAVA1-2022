@@ -75,123 +75,14 @@ public static UserService userService() {
 }
 ```
 
-4. Asimismo vamos a crear una clase llamada EndpointBean que se encuentre dentro de un nuevo paquete com.wizeline.maven.learningjava.config
-(Noten que el paquete com.wizeline.maven.learningjava ya existe por lo que solo bastaria crear un Package llamado config dentro de com.wizeline.maven.learningjava)
-
-La clase se definiria como lo siguiente:
-
-``` bash
-package com.wizeline.maven.learningjava.config;
-
-import javax.validation.constraints.NotBlank;
-import javax.validation.constraints.NotNull;
-
-import org.springframework.boot.context.properties.ConfigurationProperties;
-import org.springframework.stereotype.Component;
-import org.springframework.validation.annotation.Validated;
-
-@Component
-@Validated
-@ConfigurationProperties(prefix = "consumers")
-public class EndpointBean {
-
-	@NotNull
-	@NotBlank
-	private String login;
-
-	@NotNull
-	@NotBlank
-	private String createUser;
-
-	@NotNull
-	@NotBlank
-	private String createUsers;
-
-	@NotNull
-	@NotBlank
-	private String userAccount;
-
-	@NotNull
-	@NotBlank
-	private String accounts;
-
-	@NotNull
-	@NotBlank
-	private String accountsGroupByType;
-
-	public String getLogin() {
-		return login;
-	}
-
-	public void setLogin(String login) {
-		this.login = login;
-	}
-
-	public String getCreateUser() {
-		return createUser;
-	}
-
-	public void setCreateUser(String createUser) {
-		this.createUser = createUser;
-	}
-
-	public String getCreateUsers() {
-		return createUsers;
-	}
-
-	public void setCreateUsers(String createUsers) {
-		this.createUsers = createUsers;
-	}
-
-	public String getUserAccount() {
-		return userAccount;
-	}
-
-	public void setUserAccount(String userAccount) {
-		this.userAccount = userAccount;
-	}
-
-	public String getAccounts() {
-		return accounts;
-	}
-
-	public void setAccounts(String accounts) {
-		this.accounts = accounts;
-	}
-
-	public String getAccountsGroupByType() {
-		return accountsGroupByType;
-	}
-
-	public void setAccountsGroupByType(String accountsGroupByType) {
-		this.accountsGroupByType = accountsGroupByType;
-	}
-
-}
-```
-
-5. La anotacion de ConfigurationProperties en dicha clase tratara de buscar en application.yml el property de consumers y que los atributos
-definidos en la clase de EndpointBean consuman lo que se tiene en el application.yml. Para ello, definamos dos archivos en la carpeta de resources
-llamados application.yml y application-dev.yml cada uno teniendo el siguiente contenido:
-
-``` bash
-consumers:
-  login: '/api/login'
-  createUser: '/api/createUser'
-  createUsers: '/api/createUsers'
-  userAccount: '/api/getUserAccount'
-  accounts: '/api/getAccounts'
-  accountsGroupByType: '/api/getAccountsGroupByType'
-```
-
-6. Definamos el Autowiring en LearningJavaApplication.java
+4. Definamos el Autowiring en LearningJavaApplication.java
 
 ``` bash
 @Autowired
 private EndpointBean endpointBean;
 ```
 
-7. Al final nuestro LearningJavaApplication.java debe lucir de la siguiente forma:
+5. Al final nuestro LearningJavaApplication.java debe lucir de la siguiente forma:
 
 ``` bash
 @SpringBootApplication
@@ -202,9 +93,6 @@ public class LearningJavaApplication extends Thread {
 	private static String responseTextThread = "";
 	private static String textThread = "";
 
-	@Autowired
-	private EndpointBean endpointBean;
-
 	@Bean
    	public static UserService userService() {
         	return new UserServiceImpl();
@@ -213,7 +101,6 @@ public class LearningJavaApplication extends Thread {
 
 
 	public static void main(String[] args) throws IOException {
-		EndpointBean urls = new EndpointBean();
 		SpringApplication.run(LearningJavaApplication.class, args);
 
 		LOGGER.info("LearningJava - Iniciado servicio REST ...");
@@ -563,7 +450,7 @@ public class LearningJavaApplication extends Thread {
 }
 ```
 
-8. A continuación, ejecutemos el proyecto y hagamos una prueba con los siguientes request:
+6. A continuación, ejecutemos el proyecto y hagamos una prueba con los siguientes request:
 
 
 * [LearningJavaSpring.postman_collection.json](./Postman/LearningJavaSpring.postman_collection.json)

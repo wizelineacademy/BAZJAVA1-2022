@@ -1,5 +1,8 @@
 package com.wizeline.maven.learningjava;
 
+import static com.wizeline.maven.learningjava.utils.Utils.isDateFormatValid;
+import static com.wizeline.maven.learningjava.utils.Utils.isPasswordValid;
+
 import java.io.IOException;
 import java.io.OutputStream;
 import java.net.InetSocketAddress;
@@ -18,17 +21,12 @@ import java.util.stream.Collectors;
 
 import org.json.JSONArray;
 import org.json.JSONObject;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
 
-import static com.wizeline.maven.learningjava.utils.Utils.isDateFormatValid;
-import static com.wizeline.maven.learningjava.utils.Utils.isPasswordValid;
-
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.sun.net.httpserver.HttpServer;
-import com.wizeline.maven.learningjava.config.EndpointBean;
 import com.wizeline.maven.learningjava.model.BankAccountDTO;
 import com.wizeline.maven.learningjava.model.ResponseDTO;
 import com.wizeline.maven.learningjava.model.UserDTO;
@@ -45,9 +43,7 @@ public class LearningJavaApplication extends Thread {
 	private static final String SUCCESS_CODE = "OK000";
 	private static String responseTextThread = "";
 	private static String textThread = "";
-	
-	@Autowired
-	private EndpointBean endpointBean;
+
 	
 	@Bean
     public static UserService userService() {
@@ -57,7 +53,6 @@ public class LearningJavaApplication extends Thread {
 
 	
 	public static void main(String[] args) throws IOException {
-		EndpointBean urls = new EndpointBean(); 
 		SpringApplication.run(LearningJavaApplication.class, args);
 
 		LOGGER.info("LearningJava - Iniciado servicio REST ...");

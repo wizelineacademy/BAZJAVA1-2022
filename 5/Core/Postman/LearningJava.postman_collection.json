@@ -9,11 +9,10 @@
 		{
 			"name": "LearningJava/CreateUser",
 			"protocolProfileBehavior": {
-				"disableBodyPruning": true,
 				"disabledSystemHeaders": {}
 			},
 			"request": {
-				"method": "GET",
+				"method": "POST",
 				"header": [
 					{
 						"key": "Accept",
@@ -28,7 +27,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "",
+					"raw": "{\n    \"user\":\"user2@wizeline.com\",\n    \"password\":\"pass2\"\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -36,7 +35,7 @@
 					}
 				},
 				"url": {
-					"raw": "localhost:8080/api/createUser?user=user1@wizeline.com&password=pass1",
+					"raw": "localhost:8080/api/createUser?",
 					"host": [
 						"localhost"
 					],
@@ -47,12 +46,8 @@
 					],
 					"query": [
 						{
-							"key": "user",
-							"value": "user1@wizeline.com"
-						},
-						{
-							"key": "password",
-							"value": "pass1"
+							"key": "",
+							"value": null
 						}
 					]
 				}
@@ -80,7 +75,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\n    \"user\":\"user1@wizeline.com\",\n    \"password\":\"pass1JON\"\n}",
+					"raw": "{\n    \"user\":\"user2@wizeline.com\",\n    \"password\":\"pass2\"\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -121,7 +116,7 @@
 					}
 				],
 				"url": {
-					"raw": "localhost:8080/api/login?user=user1@wizeline.com&password=pass1",
+					"raw": "localhost:8080/api/login?user=user2@wizeline.com&password=pass2",
 					"host": [
 						"localhost"
 					],
@@ -133,11 +128,11 @@
 					"query": [
 						{
 							"key": "user",
-							"value": "user1@wizeline.com"
+							"value": "user2@wizeline.com"
 						},
 						{
 							"key": "password",
-							"value": "pass1"
+							"value": "pass2"
 						}
 					]
 				}
