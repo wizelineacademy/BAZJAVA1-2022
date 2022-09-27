@@ -42,7 +42,7 @@ jonathan.torres@Jonathans-MacBook-Pro BAZJAVA12022 %
 
 ## Temario Día 2
 
-### Definicion de anotacion de ConfigurationProperties
+### Definicion de anotacion ConfigurationProperties
 
 Consumo de los valores de los properties files en un Componente
 
