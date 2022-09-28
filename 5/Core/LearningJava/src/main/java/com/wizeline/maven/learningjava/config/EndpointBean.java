@@ -5,6 +5,8 @@ import java.io.Serializable;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.stereotype.Component;
 import org.springframework.validation.annotation.Validated;
+import javax.validation.constraints.NotBlank;
+import javax.validation.constraints.NotEmpty;
 
 @Component
 @Validated
@@ -13,16 +15,28 @@ public class EndpointBean implements Serializable {
 
 	private static final long serialVersionUID = -7673847978264607965L;
 
+	@NotBlank(message = "Field is mandatory")	
+    @NotEmpty
 	private String enpointLogin;
 
+	@NotBlank(message = "Field is mandatory")	
+    @NotEmpty
 	private String createuser;
 
+	@NotBlank(message = "Field is mandatory")	
+    @NotEmpty
 	private String createusers;
 
+	@NotBlank(message = "Field is mandatory")	
+    @NotEmpty
 	private String userAccount;
 
+	@NotBlank(message = "Field is mandatory")	
+    @NotEmpty
 	private String accounts;
 
+	@NotBlank(message = "Field is mandatory")	
+    @NotEmpty
 	private String accountsGroupByType;
 
 	public String getEnpointLogin() {
