@@ -42,18 +42,18 @@ Aquí encontrarás todas las grabaciones y presentaciones una vez finalizada cad
 - [Martes 20 Sep/Java VII](https://drive.google.com/file/d/1dCG-dtgnpMLE6dqOVQzZFzjj1zMj0z09/view?usp=sharing)
 - 📺 [Grabacion Martes 20 Sep]
 - [Miércoles 21 Sep/Java VIII](https://drive.google.com/file/d/1ZzU6p-VI0PfHyBACaldkqd3zmrbLK4Un/view?usp=sharing)
-- 📺 [Miércoles 21 Sep](https://drive.google.com/file/d/1kQVWJ0kY09br5V_ISLzt0SnRBBQ-zm2v/view?usp=sharing)
+- 📺 [Miércoles 21 Sep]
 - [Jueves 22 Sep/Java IX](https://drive.google.com/file/d/1YUK2ywFjnYR24BYMKlajvPteyKBAFjTc/view?usp=sharing)
-- 📺 [Grabacion Jueves 22 Sep](https://drive.google.com/file/d/11iq0_381LYM6XFGNL4mPl_NQlas5ABHB/view?usp=sharing)
-- [Viernes 23 Sep/Java X] - Misma presentacion que viernes 9 de Sept
+- 📺 [Grabacion Jueves 22 Sep]
+- [Viernes 23 Sep/Java X]
 - 📺 [Viernes 23 Sep](https://drive.google.com/file/d/1Pd_mKSqhxWo5Adl2TgbeFWH60X5GFOd-/view?usp=sharing)
 
 # Semana 5
 - [Lunes 26 Sep/Spring Boot I](https://drive.google.com/file/d/1FXQEsawH-cdwd3B4hQm7wE8SsDva9u_1/view?usp=sharing)
 - 📺 [Lunes 26 Sep](https://drive.google.com/file/d/1NXrc5KZrl0OYhtISBVLr-ckvyR-nEFi_/view?usp=sharing)
 - [Martes 27 Sep/Spring Boot II](https://drive.google.com/file/d/16cBZwQsYYPwWkoCLSg6l_96xmQZbtBEi/view?usp=sharing)
-- 📺 [Grabacion Martes 27 Sep](https://drive.google.com/file/d/1t7KhiguMD3TGJMxtc4FC5Q-c7KE4wlWO/view?usp=sharing)
-- [Miércoles 28 Sep/Spring Boot III](https://drive.google.com/file/d/1lCD9WYP9cwbxHoKQrVVLxaxQdevOSNL8/view?usp=sharing)
+- 📺 [Grabacion Martes 27 Sep]
+- [Miércoles 28 Sep/Spring Boot III](https://drive.google.com/drive/u/0/folders/1KzCAnYy7WbVWB-uPdE8uw8wwFkHkQXI6)
 - 📺 [Miércoles 28 Sep]
 - [Jueves 29 Sep/Spring Boot IV]
 - 📺 [Grabacion Jueves 29 Sep]
