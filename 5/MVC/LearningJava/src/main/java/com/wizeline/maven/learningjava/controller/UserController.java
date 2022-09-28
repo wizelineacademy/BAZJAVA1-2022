@@ -49,7 +49,7 @@ public class UserController {
     @Autowired
     CommonServices commonServices;
 
-    private static final Logger LOGGER = Logger.getLogger(LearningJavaApplication.class.getName());
+    private static final Logger LOGGER = Logger.getLogger(UserController.class.getName());
     String msgProcPeticion = "LearningJava - Inicia procesamiento de peticion ...";
 
     @GetMapping("/login")
