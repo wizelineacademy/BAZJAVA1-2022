@@ -1,4 +1,4 @@
-# Spring Boot - JPA
+# Spring Boot - Data
 Recursos y pasos importantes para el curso
 
 # :computer:  Actividades
@@ -73,7 +73,7 @@ La practica y ejercicios las podemos encontrar en el directorio de learningjava
 </dependency>
 ```
 
-4. Sobre la clase BankAccountDTO vamos agregar la siguiente annotation (arriba de la definicion de la clase):
+4. Sobre la clase BankAccountDTO vamos agregar la siguiente annotation (arriba de la definicion de la clase), la cual basicamente dice que manejaremos un "Documento" en donde el nombre de la coleccion se llamara bankAccountCollection:
 
 ``` bash
 @Document("bankAccountCollection")
@@ -268,6 +268,9 @@ de que no existen registros en nuestra db.
 * [LearningJAVA-JPA.postman_collection.json](./Postman/LearningJAVA-JPA.postman_collection.json)
 
 
+16. Un ejercicio extra seria el de reimplementar el repository llamado UserRepository, en donde se interactue
+con mongodb, y en vez de crear/leer un archivo se guarde y recupere datos en/desde la db. Dejamos tal practica al
+desarrollador en donde se deberian de eliminar los metodos createFile y writeFile.
 
 # :books: Para aprender mas
 * [Spring Initializr](https://start.spring.io/)
