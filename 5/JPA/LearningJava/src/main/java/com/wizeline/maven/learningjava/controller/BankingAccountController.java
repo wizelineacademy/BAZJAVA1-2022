@@ -110,6 +110,24 @@ public class BankingAccountController {
 
     }
 
+    @GetMapping("/getAccountByUser")
+    public ResponseEntity<List<BankAccountDTO>> getAccountByUser(@RequestParam String user) {
+        LOGGER.info(msgProcPeticion);
+        Instant inicioDeEjecucion = Instant.now();
+        LOGGER.info("LearningJava - Procesando peticion HTTP de tipo GET");
+        List<BankAccountDTO> accounts = bankAccountService.getAccountByUser(user);
+
+        Instant finalDeEjecucion = Instant.now();
+
+        LOGGER.info("LearningJava - Cerrando recursos ...");
+        String total = new String(String.valueOf(Duration.between(inicioDeEjecucion, finalDeEjecucion).toMillis()).concat(" segundos."));
+        LOGGER.info("Tiempo de respuesta: ".concat(total));
+
+        HttpHeaders responseHeaders = new HttpHeaders();
+        responseHeaders.set("Content-Type", "application/json; charset=UTF-8");
+        return new ResponseEntity<>(accounts, responseHeaders, HttpStatus.OK);
+    }
+
     @GetMapping("/getAccountsGroupByType")
     public ResponseEntity<Map<String, List<BankAccountDTO>>> getAccountsGroupByType() {
 

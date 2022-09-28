@@ -7,8 +7,9 @@ package com.wizeline.maven.learningjava.model;
 
 import java.time.LocalDateTime;
 
-import javax.persistence.Entity;
 import javax.persistence.Id;
+
+import org.springframework.data.mongodb.core.mapping.Document;
 
 import com.wizeline.maven.learningjava.enums.AccountType;
 
@@ -16,7 +17,8 @@ import com.wizeline.maven.learningjava.enums.AccountType;
  * DTO que representa la información de una cuenta de banco.
  * Created by jose.vazquez on 07/09/22
  */
-@Entity
+
+@Document("bankAccountCollection")
 public class BankAccountDTO {
 
     @Id

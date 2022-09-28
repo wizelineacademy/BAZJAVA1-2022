@@ -6,7 +6,6 @@
 package com.wizeline.maven.learningjava.repository;
 
 import org.springframework.data.mongodb.repository.MongoRepository;
-import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
 
 import com.wizeline.maven.learningjava.model.BankAccountDTO;
@@ -16,5 +15,5 @@ import com.wizeline.maven.learningjava.model.BankAccountDTO;
  * Created by enrique.gutierrez on 27/09/22
  */
 @Repository
-public interface BankAccountRepository extends MongoRepository<BankAccountDTO, Long> {
+public interface BankingAccountRepository extends MongoRepository<BankAccountDTO, Long> {
 }
