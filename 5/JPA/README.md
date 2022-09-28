@@ -64,11 +64,29 @@ La practica y ejercicios las podemos encontrar en el directorio de learningjava
 
 2. Desde IntelliJ importamos el proyecto maven, abriendo el pom.xml que se ubica bajo la carpeta de LearningJava)
 
-3. Lo primero que tenemos que hacer es definir una interfaz que sea de tipo Repository y sea la que implemente
+3. La primera modificacion debe ser sobre el archivo pom.xml, agregando la siguiente dependencias
+
+``` bash
+<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-data-mongodb</artifactId>
+</dependency>
+```
+
+4. Sobre la clase BankAccountDTO vamos agregar la siguiente annotation (arriba de la definicion de la clase):
+
+``` bash
+@Document("bankAccountCollection")
+public class BankAccountDTO {
+...
+}
+```
+
+5. Lo primero que tenemos que hacer es definir una interfaz que sea de tipo Repository y sea la que implemente
 las operaciones que permitan interactuar con MongoDB. Para ello debemos de crear una clase llamada BankingAccountRepository
 debajo del package com.wizeline.maven.learningjava.Repository
 
-4. El cuerpo de BankingAccountRepository debera de contener lo siguiente
+6. El cuerpo de BankingAccountRepository debera de contener lo siguiente
 
 ``` bash
 
@@ -88,7 +106,7 @@ public interface BankingAccountRepository extends MongoRepository<BankAccountDTO
 }
 ```
 
-5. Dentro de la clase BankAccountServiceImpl debemos de definir dos Autowired. Uno resolvera el Dependency Injection
+7. Dentro de la clase BankAccountServiceImpl debemos de definir dos Autowired. Uno resolvera el Dependency Injection
 para BankingAccountRepository y el otro para MongoTemplate
 
 ``` bash
@@ -101,7 +119,7 @@ para BankingAccountRepository y el otro para MongoTemplate
 
 ```
 
-6. El metodo de getAccounts() dentro de la clase BankAccountServiceImpl debe ser modificado para que pueda hacer las operaciones
+8. El metodo de getAccounts() dentro de la clase BankAccountServiceImpl debe ser modificado para que pueda hacer las operaciones
 de salvar en la db, asi de encontrar todos los records existentes en la coleccion (bankAccountCollection) dentro de Mongo DB.
 
 Asi debe quedar el cuerpo de la clase:
@@ -143,7 +161,7 @@ public List<BankAccountDTO> getAccounts() {
 }
 ```
 
-7.  Agregaremos un endpoint que permita borrar todos los records de Mongo DB existentes. Esto involucra
+9.  Agregaremos un endpoint que permita borrar todos los records de Mongo DB existentes. Esto involucra
 cambios en las capas de Controlador y Servicio. Para la clase BankAccountService debemos de incluir lo siguiente:
 
 ``` bash
@@ -176,10 +194,78 @@ Del lado del Controlador, busquemos la clase BankingAccountController e implemen
 
 ```
 
-8.  A continuación, ejecutemos el proyecto y hagamos una prueba con los siguientes request:
+10. Agreguemos un endpoint mas para mostrar la funcionalidad de hacer un query a traves de la API de MongoTemplate.
+Modifiquemos BankAccountService agregando el siguiente snippet
+
+``` bash
+
+List<BankAccountDTO> getAccountByUser(String user);
+
+```
+
+11. Implementemos el metodo en la clase BankAccountServiceImpl
+
+``` bash
+@Override
+   public List<BankAccountDTO> getAccountByUser(String user) {
+       //Buscamos todos aquellos registros de tipo BankAccountDTO
+       //que cumplen con la criteria de que el userName haga match
+       //con la variable user
+       Query query = new Query();
+       query.addCriteria(Criteria.where("userName").is(user));
+       return mongoTemplate.find(query, BankAccountDTO.class);
+   }
+```
+
+12. Invocaremos el metodo definido en la capa de servicio dentro del Controlador BankingAccountController e igual la logica
+en donde solo obtenemos el registro de un solo usuario que se defina en el request.
+
+``` bash
+@GetMapping("/getAccountByUser")
+   public ResponseEntity<List<BankAccountDTO>> getAccountByUser(@RequestParam String user) {
+       LOGGER.info(msgProcPeticion);
+       Instant inicioDeEjecucion = Instant.now();
+       LOGGER.info("LearningJava - Procesando peticion HTTP de tipo GET");
+       List<BankAccountDTO> accounts = bankAccountService.getAccountByUser(user);
+
+       Instant finalDeEjecucion = Instant.now();
+
+       LOGGER.info("LearningJava - Cerrando recursos ...");
+       String total = new String(String.valueOf(Duration.between(inicioDeEjecucion, finalDeEjecucion).toMillis()).concat(" segundos."));
+       LOGGER.info("Tiempo de respuesta: ".concat(total));
+
+       HttpHeaders responseHeaders = new HttpHeaders();
+       responseHeaders.set("Content-Type", "application/json; charset=UTF-8");
+       return new ResponseEntity<>(accounts, responseHeaders, HttpStatus.OK);
+   }
+```
+
+13. Descargamos mongodb y mongsh, e instalamos acorde a las instrucciones a traves de la siguiente liga:
+
+https://www.mongodb.com/docs/manual/installation/
+
+Hay que asegurarse de que tengamos mongodb corriendo.
+
+14. Descargamos el UI para MongoDB. Una buena aplicacion es MongoDB Compass, a traves de la siguiente liga
+
+https://www.mongodb.com/try/download/compass
+
+15.  A continuación, ejecutemos el proyecto y hagamos una prueba con estos requests:
+* Hagamos un request con el endpoint llamado "Get Accounts"
+* Abrimos MongoDB Compass y abrimos la conexion en localhost:27017
+* Damos click en la Database de test. En dicha db vemos que existe la coleccion bankAccountCollection. Le damos click
+al boton de "Find" y vemos que existen tres registros. (Esto comprueba de que los registros se salvaron en la db)
+
+* Hagamos un request con el endpoint llamado "Get Account By User"
+(Con el request definido como GET http://localhost:8080/api/getAccountByUser?user=user3@wizeline.com, vemos que
+obtenemos el registro para dicho usuario. Ese registro se esta obteniendo desde la db).
+
+* Hagamos un request con el endpoint llamado "Delete accounts"
+Verificamos en MongoDB Compass que efectivamente al darle click al boton "Find" no se trae registro. Con esto validamos
+de que no existen registros en nuestra db.
 
 
-* [LearningJavaSpring.postman_collection.json](./Postman/LearningJavaSpring.postman_collection.json)
+* [LearningJAVA-JPA.postman_collection.json](./Postman/LearningJAVA-JPA.postman_collection.json)
 
 
 
