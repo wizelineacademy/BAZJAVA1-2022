@@ -42,9 +42,9 @@ Aquí encontrarás todas las grabaciones y presentaciones una vez finalizada cad
 - [Martes 20 Sep/Java VII](https://drive.google.com/file/d/1dCG-dtgnpMLE6dqOVQzZFzjj1zMj0z09/view?usp=sharing)
 - 📺 [Grabacion Martes 20 Sep](https://drive.google.com/file/d/1wFbKd8gwMVXqjuM5Ikqi4Jaj81SgzIcL/view?usp=sharing)
 - [Miércoles 21 Sep/Java VIII](https://drive.google.com/file/d/1ZzU6p-VI0PfHyBACaldkqd3zmrbLK4Un/view?usp=sharing)
-- 📺 [Miércoles 21 Sep]
+- 📺 [Miércoles 21 Sep](https://drive.google.com/file/d/1kQVWJ0kY09br5V_ISLzt0SnRBBQ-zm2v/view?usp=sharing)
 - [Jueves 22 Sep/Java IX](https://drive.google.com/file/d/1YUK2ywFjnYR24BYMKlajvPteyKBAFjTc/view?usp=sharing)
-- 📺 [Grabacion Jueves 22 Sep]
+- 📺 [Grabacion Jueves 22 Sep](https://drive.google.com/file/d/11iq0_381LYM6XFGNL4mPl_NQlas5ABHB/view?usp=sharing)
 - [Viernes 23 Sep/Java X]
 - 📺 [Viernes 23 Sep](https://drive.google.com/file/d/1Pd_mKSqhxWo5Adl2TgbeFWH60X5GFOd-/view?usp=sharing)
 
