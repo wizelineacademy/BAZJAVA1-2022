@@ -9,7 +9,6 @@ import org.springframework.stereotype.Service;
 
 import com.wizeline.maven.learningjava.model.ErrorDTO;
 import com.wizeline.maven.learningjava.model.ResponseDTO;
-import com.wizeline.maven.learningjava.repository.UserRepository;
 import com.wizeline.maven.learningjava.repository.UserRepositoryImpl;
 import com.wizeline.maven.learningjava.utils.Utils;
 
@@ -29,7 +28,7 @@ public class UserServiceImpl implements UserService {
 		ResponseDTO response = new ResponseDTO();
 		String result = "fail"; 
 		if (Utils.validateNullValue(user) && Utils.validateNullValue(password)) {
-			UserRepository userDao = new UserRepositoryImpl();
+			UserRepositoryImpl userDao = new UserRepositoryImpl();
 			result = userDao.createUser(user, password);
 			response.setCode("OK000");
 			response.setStatus(result);
@@ -47,7 +46,7 @@ public class UserServiceImpl implements UserService {
 		ResponseDTO response = new ResponseDTO();
 		String result = "";
 		if (Utils.validateNullValue(user) && Utils.validateNullValue(password)) {
-			UserRepository userDao = new UserRepositoryImpl();
+			UserRepositoryImpl userDao = new UserRepositoryImpl();
 			result = userDao.login(user, password);
 		}
 		if("success".equals(result)) {

@@ -3,11 +3,10 @@ package com.wizeline.maven.learningjava.repository;
 import java.io.*;
 import java.util.logging.Logger;
 
-public class UserRepositoryImpl implements UserRepository {
+public class UserRepositoryImpl {
 
 	private static final Logger LOGGER = Logger.getLogger(UserRepositoryImpl.class.getName());
 
-	@Override
 	public String createUser(String user, String password) {
 		createFile();
 		LOGGER.info("Inicia procesamiento en capa de acceso de datos");
@@ -19,7 +18,6 @@ public class UserRepositoryImpl implements UserRepository {
 		return "success";
 	}
 
-	@Override
 	public String login(String user, String password) {
 		createFile();
 		LOGGER.info("Inicia procesamiento en capa de acceso de datos");
