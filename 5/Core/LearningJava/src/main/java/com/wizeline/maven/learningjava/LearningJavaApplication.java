@@ -49,15 +49,15 @@ public class LearningJavaApplication extends Thread {
 	@Autowired
 	private EndpointBean endpointBean;
 	
+	
 	@Bean
     public static UserService userService() {
         return new UserServiceImpl();
     }
 	
 
-	
 	public static void main(String[] args) throws IOException {
-		EndpointBean urls = new EndpointBean(); 
+		
 		SpringApplication.run(LearningJavaApplication.class, args);
 
 		LOGGER.info("LearningJava - Iniciado servicio REST ...");

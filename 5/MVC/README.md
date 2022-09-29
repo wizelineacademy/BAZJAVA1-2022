@@ -139,6 +139,42 @@ localhost:8080/api/login?user=user2@wizeline.com&password=pass2
 ![Alt text](./Images/12.PostmanLogin.png "Postman")
 
 
+13. Probemos implementar JAXB. Comenzaremos creando 2 bean, el primero para usarlo como objecto dentro del ResponseEntity y el segundo es el Bean que tendra las anotaciones de JAXB:
+
+![Alt text](./Images/13.XmlBean.png "XmlBean")
+
+![Alt text](./Images/14.BookBean.png "BookBean")
+
+14. Ahora necesitamos crear un nuevo controller para poder hacer el llamado:
+
+![Alt text](./Images/15.Controller.png "Controller")
+
+
+15. En el mismo controller tenemos los metodos marshall y unmarshall, con ellos podemos manejar de manera sencilla el XML:
+
+![Alt text](./Images/16.Marshall.png "Método Marshall")
+
+![Alt text](./Images/17.Unmarshall.png "Método Unmarshall")
+
+
+16. Probemos si nuestro servicio funciona, debemos crear un nuevo metodo GET en postman para llamar a nuestro controller:
+
+``` bash
+localhost:8080/jaxb/getXML
+```
+![Alt text](./Images/19.GetXml.png "Postman")
+
+
+17. Al realizar el llamado vamos a ver que el servicio crea el archivo book.xml y el se guardan los datos que definimos en el ejemplo:
+
+![Alt text](./Images/18.XmlFile.png "Book.xml")
+
+
+18. Si todo fue bien, debemos ver la siguiente respuesta:
+
+![Alt text](./Images/18.Postman.png "Postman")
+
+
 
 ## Practica
 La practica consiste crear el resto de Endpoint comentados en el archivo LearningJavaApplication. Puede utilizar la implementación preferida, sin embargo, recuerda utilizar las anotaciones previas.
@@ -146,7 +182,7 @@ La practica consiste crear el resto de Endpoint comentados en el archivo Learnin
 
 
 
-* [LearningJavaSpring.postman_collection.json](./Postman/LearningJavaSpring.postman_collection.json)
+* [LearningJavaSpring.postman_collection.json](./Postman/LearningJava.postman_collection.json)
 
 
 # :books: Para aprender mas

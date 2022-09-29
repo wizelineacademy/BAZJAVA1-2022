@@ -1,63 +1,66 @@
 package com.wizeline.maven.learningjava.config;
 
-import javax.validation.constraints.NotBlank;
-import javax.validation.constraints.NotNull;
+import java.io.Serializable;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.stereotype.Component;
 import org.springframework.validation.annotation.Validated;
+import javax.validation.constraints.NotBlank;
+import javax.validation.constraints.NotEmpty;
 
 @Component
 @Validated
 @ConfigurationProperties(prefix = "consumers")
-public class EndpointBean {
+public class EndpointBean implements Serializable {
 
-	@NotNull
-	@NotBlank
-	private String login;
+	private static final long serialVersionUID = -7673847978264607965L;
 
-	@NotNull
-	@NotBlank
-	private String createUser;
+	@NotBlank(message = "Field is mandatory")	
+    @NotEmpty
+	private String enpointLogin;
 
-	@NotNull
-	@NotBlank
-	private String createUsers;
+	@NotBlank(message = "Field is mandatory")	
+    @NotEmpty
+	private String createuser;
 
-	@NotNull
-	@NotBlank
+	@NotBlank(message = "Field is mandatory")	
+    @NotEmpty
+	private String createusers;
+
+	@NotBlank(message = "Field is mandatory")	
+    @NotEmpty
 	private String userAccount;
 
-	@NotNull
-	@NotBlank
+	@NotBlank(message = "Field is mandatory")	
+    @NotEmpty
 	private String accounts;
 
-	@NotNull
-	@NotBlank
+	@NotBlank(message = "Field is mandatory")	
+    @NotEmpty
 	private String accountsGroupByType;
 
-	public String getLogin() {
-		return login;
+	public String getEnpointLogin() {
+		return enpointLogin;
 	}
 
-	public void setLogin(String login) {
-		this.login = login;
+	public void setEnpointLogin(String enpointLogin) {
+		this.enpointLogin = enpointLogin;
 	}
 
-	public String getCreateUser() {
-		return createUser;
+	public String getCreateuser() {
+		return createuser;
 	}
 
-	public void setCreateUser(String createUser) {
-		this.createUser = createUser;
+	public void setCreateuser(String createuser) {
+		this.createuser = createuser;
 	}
 
-	public String getCreateUsers() {
-		return createUsers;
+	public String getCreateusers() {
+		return createusers;
 	}
 
-	public void setCreateUsers(String createUsers) {
-		this.createUsers = createUsers;
+	public void setCreateusers(String createusers) {
+		this.createusers = createusers;
 	}
 
 	public String getUserAccount() {
@@ -83,5 +86,5 @@ public class EndpointBean {
 	public void setAccountsGroupByType(String accountsGroupByType) {
 		this.accountsGroupByType = accountsGroupByType;
 	}
-
+	
 }
