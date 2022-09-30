@@ -443,7 +443,7 @@ public class KafkaConfiguration {
 private KafkaTemplate<Object, Object> template;
 ```
 
-E incluiremos el siguiente snippet que es un endpoint que mandara el mensaje usando KafkaConsumer
+E incluiremos el siguiente snippet que es un endpoint que mandara el mensaje usando KafkaTemplate
 
 ``` bash
 @PostMapping(path = "/send/{userId}")
