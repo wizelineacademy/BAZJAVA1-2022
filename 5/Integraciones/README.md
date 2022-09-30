@@ -93,6 +93,8 @@ Asimismo agregamos la siguiente dependencia:
 </dependency>
 ```
 
+(Nota: hay que agregar la anotacion EnableFeignclients en SpringBootApplication)
+
 4. Vamos a crear una interfaz dentro de un paquete que llamaremos com.wizeline.maven.learningjava.client llamada AccountsJSONClient la cual
 tendra el siguiente contenido
 
@@ -303,6 +305,8 @@ en server.port asignandole por cada corrida su puerto correspondiente
 			<scope>test</scope>
 		</dependency>
 ```
+
+Nota: Implementaremos la anotacion de EnableKafka en SpringBootApplication
 
 20.  Implementaremos ahora Kafka en nuestra aplicacion.
 Crearemos una clase llamada KafkaConsumer dentro de la carpeta com.wizeline.maven.learningjava la cual tendra el siguiente contenido.
