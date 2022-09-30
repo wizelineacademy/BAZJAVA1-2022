@@ -66,9 +66,9 @@ Los temas estan divididos en 6 semanas, 3 sesiones por semana.
    5. [Spring Data JPA](5/JPA/README.md)
 
 ### Semana 6 - JUnit
-   1. [Configuracion Inicial](6/Configuracion/README.md)
-   2. [Pruebas Unitarias](6/PruebasUnitarias/README.md)
-   3. [Registros](6/Registros/README.md)
+   1. [Pruebas Unitarias](6/PruebasUnitarias/README.md)
+   2. [Pruebas de Integración](6/PruebasIntegracion/README.md)
+   3. [Cobertura](6/Cobertura/README.md)
 
 ## 📺 Grabaciones sesiones y Presentaciones
 
