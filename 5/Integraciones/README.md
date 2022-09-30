@@ -325,7 +325,7 @@ en server.port asignandole por cada corrida su puerto correspondiente
 			<artifactId>spring-kafka-test</artifactId>
 			<scope>test</scope>
 		</dependency>
-
+```
 
 Nota: Implementaremos la anotacion de EnableKafka en SpringBootApplication
 	
