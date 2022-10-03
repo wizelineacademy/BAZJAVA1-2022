@@ -61,7 +61,7 @@ Aquí encontrarás todas las grabaciones y presentaciones una vez finalizada cad
 - 📺 [Grabación Viernes 30 Sep](https://drive.google.com/file/d/1OgZ8th1IbPhtKmG_67pdy0qh4uJBFaOi/view?usp=sharing)
 
 # Semana 6
-- [Lunes 3 Oct/JUNIT I]
+- [Lunes 3 Oct/JUNIT I](https://drive.google.com/file/d/1M0gIkNLlt3Hqwa_vY1kO28n9PEq9e9uu/view?usp=sharing)
 - 📺 [Lunes 3 Oct]
 - [Martes 4 Oct/JUNIT II]
 - 📺 [Grabacion Martes 4 Oct]
