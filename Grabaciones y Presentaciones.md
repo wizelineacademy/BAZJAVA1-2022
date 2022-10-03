@@ -58,7 +58,7 @@ Aquí encontrarás todas las grabaciones y presentaciones una vez finalizada cad
 - [Jueves 29 Sep/Spring Boot IV]
 - 📺 [Grabacion Jueves 29 Sep](https://drive.google.com/file/d/1eWJYoz-jaR24fNanWjRz-QF257kp-ZdF/view?usp=sharing)
 - [Viernes 30 Sep/Spring Boot V]
-- 📺 [Viernes 30 Sep]
+- 📺 [Grabación Viernes 30 Sep](https://drive.google.com/file/d/1OgZ8th1IbPhtKmG_67pdy0qh4uJBFaOi/view?usp=sharing)
 
 # Semana 6
 - [Lunes 3 Oct/JUNIT I]
