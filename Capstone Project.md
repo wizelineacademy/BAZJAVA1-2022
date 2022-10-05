@@ -153,8 +153,7 @@ El proyecto está confirmado de los ejercicios y tareas que se van realizando en
 | Borrado en MongoDB usando MongoTemplate                           | 5           |
 | Prueba unitaria de cada endpoint de la API                        | 20          |
 | Prueba unitaria de cada operación CRUD                            | 20          |
-| Prueba unitaria para AWS Lambda                                   | 10          |
-| Prueba unitaria para Apache Kafka                                 | 10          |
+| Prueba unitaria para Apache Kafka                                 | 20          |
 | Uso de Mockito en cada prueba                                     | 10          |
 | Generación de logs por prueba                                     | 10          |
 | Pruebas para Happy Path                                           | 10          |
