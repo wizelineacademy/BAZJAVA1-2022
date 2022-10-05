@@ -130,7 +130,6 @@ El proyecto está confirmado de los ejercicios y tareas que se van realizando en
 - Debe utilizar RestTemplate para consumir por lo menos una API pública y convertir el resultado a un POJO utilizando JAXB o Jackson
 - Generar una API utilizando Spring MVC y debe tener por lo menos un endpoint de cada tipo (GET, POST, PUT, DELETE, HEAD); este debe ser consumible por medio de Postman y la colección para ello debe proveerse en el entregable final
 - Comunicarse con la base de datos de MongoDB creada en el primer entregable a través de Spring Data JPA con MongoTemplate y poder realizar operaciones CRUD (creación, lectura, actualización y borrado de registros)
-- Comunicarse con Lambda en AWS y con Kafka empleando librerías oficiales usando dependencias
 - Crear por lo menos una prueba unitaria de cada endpoint generado con Spring MVC, de cada operación realizada con Spring Data JPA y de cada integración empleando Mockito generando logs en la ejecución de cada una y contemplar Happy Path y Edge Cases, usando JaCoCo o SonarCloud como herramientas de cobertura de pruebas
 
 ### Criterio de Evaluación
@@ -152,8 +151,6 @@ El proyecto está confirmado de los ejercicios y tareas que se van realizando en
 | Escritura en MongoDB usando MongoTemplate                         | 5           |
 | Actualización en MongoDB usando MongoTemplate                     | 5           |
 | Borrado en MongoDB usando MongoTemplate                           | 5           |
-| Integración con librería de AWS Lambda por medio de dependencia   | 15          |
-| Integración con librería de Apache Kafka por medio de dependencia | 15          |
 | Prueba unitaria de cada endpoint de la API                        | 20          |
 | Prueba unitaria de cada operación CRUD                            | 20          |
 | Prueba unitaria para AWS Lambda                                   | 10          |
@@ -163,5 +160,5 @@ El proyecto está confirmado de los ejercicios y tareas que se van realizando en
 | Pruebas para Happy Path                                           | 10          |
 | Pruebas para cada Edge Case                                       | 10          |
 | Implementación de JaCoCo o SonarCloud (mínimo 70% de cobertura)   | 10          |
-| **Total**                                                         | **230**     |
-| **Mínimo aprobatorio**                                            | **180**     |
+| **Total**                                                         | **200**     |
+| **Mínimo aprobatorio**                                            | **160**     |
