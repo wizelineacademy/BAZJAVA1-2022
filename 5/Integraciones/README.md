@@ -95,6 +95,27 @@ Asimismo agregamos la siguiente dependencia:
 
 (Nota: hay que agregar la anotacion EnableFeignclients en SpringBootApplication)
 
+``` bash
+package com.wizeline.maven.learningjava;
+
+import java.io.IOException;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cloud.openfeign.EnableFeignClients;
+import org.springframework.kafka.annotation.EnableKafka;
+
+
+@SpringBootApplication
+@EnableFeignClients
+public class LearningJavaApplication {
+
+	public static void main(String[] args) throws IOException {
+		SpringApplication.run(LearningJavaApplication.class, args);
+	}
+
+}
+```
+
 4. Vamos a crear una interfaz dentro de un paquete que llamaremos com.wizeline.maven.learningjava.client llamada AccountsJSONClient la cual
 tendra el siguiente contenido
 
@@ -307,6 +328,29 @@ en server.port asignandole por cada corrida su puerto correspondiente
 ```
 
 Nota: Implementaremos la anotacion de EnableKafka en SpringBootApplication
+	
+``` bash
+	
+package com.wizeline.maven.learningjava;
+
+import java.io.IOException;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cloud.openfeign.EnableFeignClients;
+import org.springframework.kafka.annotation.EnableKafka;
+
+
+@SpringBootApplication
+@EnableFeignClients
+@EnableKafka
+public class LearningJavaApplication {
+
+	public static void main(String[] args) throws IOException {
+		SpringApplication.run(LearningJavaApplication.class, args);
+	}
+
+}
+```
 
 20.  Implementaremos ahora Kafka en nuestra aplicacion.
 Crearemos una clase llamada KafkaConsumer dentro de la carpeta com.wizeline.maven.learningjava la cual tendra el siguiente contenido.
@@ -443,7 +487,7 @@ public class KafkaConfiguration {
 private KafkaTemplate<Object, Object> template;
 ```
 
-E incluiremos el siguiente snippet que es un endpoint que mandara el mensaje usando KafkaConsumer
+E incluiremos el siguiente snippet que es un endpoint que mandara el mensaje usando KafkaTemplate
 
 ``` bash
 @PostMapping(path = "/send/{userId}")
