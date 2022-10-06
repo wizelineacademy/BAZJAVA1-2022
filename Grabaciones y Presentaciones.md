@@ -55,7 +55,7 @@ Aquí encontrarás todas las grabaciones y presentaciones una vez finalizada cad
 - 📺 [Grabacion Martes 27 Sep](https://drive.google.com/file/d/1t7KhiguMD3TGJMxtc4FC5Q-c7KE4wlWO/view?usp=sharing)
 - [Miércoles 28 Sep/Spring Boot III](https://drive.google.com/drive/u/0/folders/1KzCAnYy7WbVWB-uPdE8uw8wwFkHkQXI6)
 - 📺 [Miércoles 28 Sep](https://drive.google.com/file/d/1Vdt2UeLo_s3zCqjV-yyBkH55Qil2y0Jn/view?usp=sharing)
-- [Jueves 29 Sep/Spring Boot IV]
+- [Jueves 29 Sep/Spring Boot IV](https://drive.google.com/file/d/1I3Ty9Goj1yjHZZb8FF5jCBhXwjAs2LeU/view?usp=sharing)
 - 📺 [Grabacion Jueves 29 Sep](https://drive.google.com/file/d/1eWJYoz-jaR24fNanWjRz-QF257kp-ZdF/view?usp=sharing)
 - [Viernes 30 Sep/Spring Boot V]
 - 📺 [Grabación Viernes 30 Sep](https://drive.google.com/file/d/1OgZ8th1IbPhtKmG_67pdy0qh4uJBFaOi/view?usp=sharing)
