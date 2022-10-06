@@ -45,7 +45,7 @@ Aquí encontrarás todas las grabaciones y presentaciones una vez finalizada cad
 - 📺 [Miércoles 21 Sep](https://drive.google.com/file/d/1kQVWJ0kY09br5V_ISLzt0SnRBBQ-zm2v/view?usp=sharing)
 - [Jueves 22 Sep/Java IX](https://drive.google.com/file/d/1YUK2ywFjnYR24BYMKlajvPteyKBAFjTc/view?usp=sharing)
 - 📺 [Grabacion Jueves 22 Sep](https://drive.google.com/file/d/11iq0_381LYM6XFGNL4mPl_NQlas5ABHB/view?usp=sharing)
-- [Viernes 23 Sep/Java X] - Misma presentación que viernes 9 sept
+- [Viernes 23 Sep/Java X](https://drive.google.com/file/d/1e_ZxYahEZwA77896Jc64ZeGClnF5H2tb/view?usp=sharing) - Misma presentación que viernes 9 sept
 - 📺 [Viernes 23 Sep](https://drive.google.com/file/d/1Pd_mKSqhxWo5Adl2TgbeFWH60X5GFOd-/view?usp=sharing)
 
 # Semana 5
