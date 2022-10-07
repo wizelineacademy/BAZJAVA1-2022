@@ -68,7 +68,7 @@ Aquí encontrarás todas las grabaciones y presentaciones una vez finalizada cad
 - [Miércoles 5 Oct/JUNIT III]
 - 📺 [Miércoles 5 Oct](https://drive.google.com/file/d/14fDVOoZa1UoezWdPf5LeUNiXU5GC8z0U/view?usp=sharing)
 - [Jueves 6 Oct/JUNIT IV]
-- 📺 [Grabacion Jueves 6 Oct]
+- 📺 [Grabacion Jueves 6 Oct](https://drive.google.com/file/d/1Xhy41odYPK5DJYvhHFxruX8op1LAX4R-/view?usp=sharing)
 - [Viernes 7 Oct/JUNIT V]
 - 📺 [Viernes 7 Oct]
 
