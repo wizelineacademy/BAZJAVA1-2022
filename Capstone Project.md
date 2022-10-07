@@ -128,7 +128,7 @@ El proyecto está confirmado de los ejercicios y tareas que se van realizando en
 - Construirse mediante su manejador de dependencias (Gradle o Maven)
 - La estructura del proyecto debe ser coherente y acorde a buenas prácticas
 - Debe utilizar RestTemplate para consumir por lo menos una API pública y convertir el resultado a un POJO utilizando JAXB o Jackson
-- Generar una API utilizando Spring MVC y debe tener por lo menos un endpoint de cada tipo (GET, POST, PUT, DELETE, HEAD); este debe ser consumible por medio de Postman y la colección para ello debe proveerse en el entregable final
+- Generar una API utilizando Spring MVC y debe tener por lo menos un endpoint de cada tipo (GET, POST, PUT, DELETE); este debe ser consumible por medio de Postman y la colección para ello debe proveerse en el entregable final
 - Comunicarse con la base de datos de MongoDB creada en el primer entregable a través de Spring Data JPA con MongoTemplate y poder realizar operaciones CRUD (creación, lectura, actualización y borrado de registros)
 - Crear por lo menos una prueba unitaria de cada endpoint generado con Spring MVC, de cada operación realizada con Spring Data JPA y de cada integración empleando Mockito generando logs en la ejecución de cada una y contemplar Happy Path y Edge Cases, usando JaCoCo o SonarCloud como herramientas de cobertura de pruebas
 
