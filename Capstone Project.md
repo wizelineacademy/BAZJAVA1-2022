@@ -147,13 +147,12 @@ El proyecto está confirmado de los ejercicios y tareas que se van realizando en
 | Colección de Postman para consumir la API generada                | 5           |
 | Creación de enlace con MongoDB usando Spring Data JPA             | 10          |
 | Uso de MongoTemplate                                              | 5           |
-| Lectura de MongoDB usando MongoTemplate                           | 5           |
-| Escritura en MongoDB usando MongoTemplate                         | 5           |
-| Actualización en MongoDB usando MongoTemplate                     | 5           |
-| Borrado en MongoDB usando MongoTemplate                           | 5           |
+| Lectura de MongoDB usando MongoTemplate                           | 10          |
+| Escritura en MongoDB usando MongoTemplate                         | 10          |
+| Actualización en MongoDB usando MongoTemplate                     | 10          |
+| Borrado en MongoDB usando MongoTemplate                           | 10          |
 | Prueba unitaria de cada endpoint de la API                        | 20          |
 | Prueba unitaria de cada operación CRUD                            | 20          |
-| Prueba unitaria para Apache Kafka                                 | 20          |
 | Uso de Mockito en cada prueba                                     | 10          |
 | Generación de logs por prueba                                     | 10          |
 | Pruebas para Happy Path                                           | 10          |
