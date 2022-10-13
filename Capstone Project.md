@@ -52,7 +52,7 @@ El proyecto está confirmado de los ejercicios y tareas que se van realizando en
 | Impresión de pantalla de operaciones CRUD en datos reales de MongoDB                                                                                       | 10          |
 | Diagrama de clases inicial y diagrama de clases con un patrón de diseño creacional aplicado                                                                | 10          |
 | **Total**                                                                                                                                                  | **100**     |
-| **Mínimo Aprobatorio**                                                                                                                                     | **70**      |
+| **Mínimo Aprobatorio**                                                                                                                                     | **80**      |
 
 
 ## Entregable 2
