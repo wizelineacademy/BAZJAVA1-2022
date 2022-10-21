@@ -15,11 +15,13 @@ import java.util.stream.Collectors;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
-import org.springframework.cloud.client.loadbalancer.LoadBalanced;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpStatus;
+import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
 import org.springframework.kafka.core.KafkaTemplate;
+import org.springframework.security.access.prepost.PreAuthorize;
+import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -28,6 +30,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
+import com.fasterxml.jackson.core.JsonProcessingException;
 import com.wizeline.maven.learningjava.LearningJavaApplication;
 import com.wizeline.maven.learningjava.client.AccountsJSONClient;
 import com.wizeline.maven.learningjava.model.BankAccountDTO;
@@ -36,6 +39,7 @@ import com.wizeline.maven.learningjava.model.ResponseDTO;
 import com.wizeline.maven.learningjava.service.BankAccountService;
 import com.wizeline.maven.learningjava.utils.CommonServices;
 
+import io.swagger.v3.oas.annotations.tags.Tag;
 
 import static com.wizeline.maven.learningjava.utils.Utils.isDateFormatValid;
 import static com.wizeline.maven.learningjava.utils.Utils.isPasswordValid;
@@ -46,6 +50,9 @@ import static com.wizeline.maven.learningjava.utils.Utils.randomAcountNumber;
  * Created by enrique.gutierrez on 26/09/22
  */
 
+@Tag(name = "Banking Account",
+        description = "Contiene operaciones comunes realizadas en las cuentas.")
+@CrossOrigin(origins = "*", maxAge = 3600)
 @RequestMapping("/api")
 @RestController
 public class BankingAccountController {
@@ -155,7 +162,8 @@ public class BankingAccountController {
         return new ResponseEntity<>(postTest, responseHeaders, HttpStatus.OK);
     }
 
-    @GetMapping("/getAccountByUser")
+    @PreAuthorize("hasRole('USER')")
+    @GetMapping(value = "/getAccountByUser", produces = MediaType.APPLICATION_JSON_VALUE)
     public ResponseEntity<List<BankAccountDTO>> getAccountByUser(@RequestParam String user) {
         LOGGER.info(msgProcPeticion);
         Instant inicioDeEjecucion = Instant.now();
@@ -173,8 +181,10 @@ public class BankingAccountController {
         return new ResponseEntity<>(accounts, responseHeaders, HttpStatus.OK);
     }
 
-    @GetMapping("/getAccountsGroupByType")
-    public ResponseEntity<Map<String, List<BankAccountDTO>>> getAccountsGroupByType() {
+
+    @PreAuthorize("hasRole('ADMIN')")
+    @GetMapping(value = "/getAccountsGroupByType")
+    public ResponseEntity<Map<String, List<BankAccountDTO>>> getAccountsGroupByType() throws JsonProcessingException {
 
         LOGGER.info(msgProcPeticion);
         Instant inicioDeEjecucion = Instant.now();
@@ -193,6 +203,12 @@ public class BankingAccountController {
         LOGGER.info("Tiempo de respuesta: ".concat(total));
 
         return new ResponseEntity<>(groupedAccounts, HttpStatus.OK);
+    }
+
+    @PreAuthorize("hasRole('GUEST')")
+    @GetMapping("/invitado")
+    public ResponseEntity<String> sayHelloGuest() {
+        return new ResponseEntity<>("Hola invitado!!", HttpStatus.OK);
     }
 
     @DeleteMapping("/deleteAccounts")
