@@ -33,15 +33,11 @@ import com.wizeline.maven.learningjava.model.UserDTO;
 import com.wizeline.maven.learningjava.service.UserService;
 import com.wizeline.maven.learningjava.utils.CommonServices;
 
-import io.swagger.v3.oas.annotations.tags.Tag;
-
 /**
  * Class Description goes here.
  * Created by enrique.gutierrez on 24/09/22
  */
 
-@Tag(name = "User",
-        description = "Contiene operaciones comunes realizadas para usuarios.")
 @RequestMapping("/api")
 @RestController
 public class UserController {
