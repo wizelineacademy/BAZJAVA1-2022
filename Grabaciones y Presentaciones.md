@@ -70,5 +70,5 @@ Aquí encontrarás todas las grabaciones y presentaciones una vez finalizada cad
 - [Jueves 6 Oct/JUNIT IV](https://drive.google.com/file/d/1IIT3BE5Z86ws8OM0h0CazVa68uf0pl0W/view?usp=sharing)
 - 📺 [Grabacion Jueves 6 Oct](https://drive.google.com/file/d/1Xhy41odYPK5DJYvhHFxruX8op1LAX4R-/view?usp=sharing)
 - [Viernes 7 Oct/JUNIT V](https://drive.google.com/file/d/1TYfM5ZRYhKo92KkW0gO1JYLVJXx8Avtc/view?usp=sharing)
-- 📺 [Viernes 7 Oct]
+- 📺 [Viernes 7 Oct](https://drive.google.com/file/d/16UhPpmZklGc0-VHdcuI_5DWh7itbMbK4/view?usp=sharing)
 
